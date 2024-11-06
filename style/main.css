@@ -1,0 +1,68 @@
+:root {
+    --color-bg: #ffffff;
+    /* fg: foreground, is mainly used for text color */
+    --color-fg: #0c081b;
+
+    --color-link: #0077cc;
+    --color-link-hover: #003d69;
+    --color-link-visited: #642ad0;
+}
+
+/* General Boilerplate */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", "Arial", "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+}
+
+/* /General Boilerplate */
+
+/* Tag wide styling */
+a {
+    color: var(--color-link);
+    text-decoration: none;
+
+    &:visited {
+        color: var(--color-link-visited);
+    }
+
+    &:hover {
+        color: var(--color-link-hover);
+    }
+}
+
+/* /Tag wide styling */
+
+/* Class wide styling */
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: start;
+
+    &.center {
+        align-items: center;
+    }
+}
+
+/* /Class wide styling */
+
+/* Nested tree styling */
+main {
+    width: 60dvw;
+}
+
+/* /Nested tree styling */
