@@ -1087,6 +1087,10 @@ h5 {
     justify-content: center;
     align-items: start;
 
+    &>* {
+        width: 100%;
+    }
+
     &.evenly {
         align-items: space-evenly;
     }
@@ -1107,6 +1111,7 @@ h5 {
     --row-unit: 1rem;
     --col-unit: 1ch;
 
+    --gap-05: 0.1;
     --gap-1: 0.3;
     --gap-2: 0.5;
     --gap-3: 0.7;
@@ -1116,6 +1121,10 @@ h5 {
     --gap-20: 20;
 
     /* Row gaps */
+    &.r-gap-05 {
+        row-gap: calc(var(--row-unit) * var(--gap-05));
+    }
+
     &.r-gap-1 {
         row-gap: calc(var(--row-unit) * var(--gap-1));
     }
@@ -1145,6 +1154,10 @@ h5 {
     }
 
     /* Column gaps */
+    &.c-gap-05 {
+        column-gap: calc(var(--col-unit) * var(--gap-05));
+    }
+
     &.c-gap-1 {
         column-gap: calc(var(--col-unit) * var(--gap-1));
     }
@@ -1174,6 +1187,10 @@ h5 {
     }
 
     /* Both gaps */
+    &.gap-05 {
+        gap: calc(var(--row-unit) * var(--gap-05)) calc(var(--col-unit) * var(--gap-05));
+    }
+
     &.gap-1 {
         gap: calc(var(--row-unit) * var(--gap-1)) calc(var(--col-unit) * var(--gap-1));
     }
@@ -1200,6 +1217,29 @@ h5 {
 
     &.gap-20 {
         gap: calc(var(--row-unit) * var(--gap-20)) calc(var(--col-unit) * var(--gap-20));
+    }
+}
+
+/* Flex */
+.grid,
+.row,
+.col {
+    .flx-1 {
+        flex: 1;
+    }
+}
+
+/* Dynamic functions */
+
+.grid,
+.row,
+.col {
+    &.col-if-small {
+        @media (max-width: 768px) {
+            flex-direction: column;
+            align-items: start;
+            row-gap: calc(var(--row-unit) * var(--gap-1));
+        }
     }
 }
 
