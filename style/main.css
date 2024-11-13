@@ -740,6 +740,102 @@ h5 {
     &.w-full {
         width: 100%;
     }
+
+    &.max-w-1 {
+        max-width: calc(var(--width-unit) * var(--width-1));
+    }
+
+    &.max-w-2 {
+        max-width: calc(var(--width-unit) * var(--width-2));
+    }
+
+    &.max-w-3 {
+        max-width: calc(var(--width-unit) * var(--width-3));
+    }
+
+    &.max-w-4 {
+        max-width: calc(var(--width-unit) * var(--width-4));
+    }
+
+    &.max-w-5 {
+        max-width: calc(var(--width-unit) * var(--width-5));
+    }
+
+    &.max-w-6 {
+        max-width: calc(var(--width-unit) * var(--width-6));
+    }
+
+    &.max-w-7 {
+        max-width: calc(var(--width-unit) * var(--width-7));
+    }
+
+    &.max-w-8 {
+        max-width: calc(var(--width-unit) * var(--width-8));
+    }
+
+    &.max-w-85 {
+        max-width: calc(var(--width-unit) * var(--width-85));
+    }
+
+    &.max-w-9 {
+        max-width: calc(var(--width-unit) * var(--width-9));
+    }
+
+    &.max-w-10 {
+        max-width: calc(var(--width-unit) * var(--width-10));
+    }
+
+    &.max-w-full {
+        max-width: 100%;
+    }
+
+    &.min-w-1 {
+        min-width: calc(var(--width-unit) * var(--width-1));
+    }
+
+    &.min-w-2 {
+        min-width: calc(var(--width-unit) * var(--width-2));
+    }
+
+    &.min-w-3 {
+        min-width: calc(var(--width-unit) * var(--width-3));
+    }
+
+    &.min-w-4 {
+        min-width: calc(var(--width-unit) * var(--width-4));
+    }
+
+    &.min-w-5 {
+        min-width: calc(var(--width-unit) * var(--width-5));
+    }
+
+    &.min-w-6 {
+        min-width: calc(var(--width-unit) * var(--width-6));
+    }
+
+    &.min-w-7 {
+        min-width: calc(var(--width-unit) * var(--width-7));
+    }
+
+    &.min-w-8 {
+        min-width: calc(var(--width-unit) * var(--width-8));
+    }
+
+    &.min-w-85 {
+        min-width: calc(var(--width-unit) * var(--width-85));
+    }
+
+    &.min-w-9 {
+        min-width: calc(var(--width-unit) * var(--width-9));
+    }
+
+    &.min-w-10 {
+        min-width: calc(var(--width-unit) * var(--width-10));
+    }
+
+    &.min-w-full {
+        min-width: 100%;
+    }
 }
 
 /* Height */
