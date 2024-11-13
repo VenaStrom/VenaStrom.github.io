@@ -19,64 +19,66 @@
     <!-- The paper like page the rest sits on -->
     <div id="page" class="col center p-10 p-top-4 m-top-4 m-bottom-10">
 
-        <header class="col center">
+        <header class="col center text-center">
             <h1>Viggo Ström</h1>
             <h2>Software Developer</h2>
         </header>
 
-        <main class="grid cols-2 c-gap-15">
-            <!-- Contact -->
-            <section>
-                <h3>Contact</h3>
+        <main class="col">
+            <div class="row between c-gap-15">
+                <!-- Contact -->
+                <section class="flx-1">
+                    <h3>Contact</h3>
 
-                <!-- Line items -->
-                <div class="row between">
-                    <p>Phone</p> <a href="tel:+46723274281" target="_blank">072-327 42 81</a>
-                </div>
+                    <!-- Line items -->
+                    <div class="row between">
+                        <p>Phone</p> <a href="tel:+46723274281" target="_blank">072-327 42 81</a>
+                    </div>
 
-                <div class="row between">
-                    <p>Email</p> <a href="mailto:viggostrom05+portfolio@gmail.com" target="_blank">ViggoStrom05@gmail.com</a>
-                </div>
+                    <div class="row between">
+                        <p>Email</p> <a href="mailto:viggostrom05+portfolio@gmail.com" target="_blank">ViggoStrom05@gmail.com</a>
+                    </div>
 
-                <div class="row between">
-                    <p>Address</p>
-                    <p>Rosenlundsvägen 18 Heby</p>
-                </div>
+                    <div class="row between">
+                        <p>Address</p>
+                        <p>Rosenlundsvägen 18 Heby</p>
+                    </div>
 
-                <!-- Links with icons -->
-                <div class="row evenly m-top-3">
-                    <a class="row c-gap-1" href="http://linkedin.com/in/viggo-ström-74b618332" target="_blank">
-                        <img src="assets/icon/icons8-linkedin-24.png" alt="Logo">
-                        <p>LinkedIn</p>
-                    </a>
+                    <!-- Links with icons -->
+                    <div class="row evenly m-top-3">
+                        <a class="row c-gap-1" href="http://linkedin.com/in/viggo-ström-74b618332" target="_blank">
+                            <img src="assets/icon/icons8-linkedin-24.png" alt="Logo">
+                            <p>LinkedIn</p>
+                        </a>
 
-                    <a class="row c-gap-1" href="https://github.com/viggoStrom" target="_blank">
-                        <img src="assets/icon/icons8-github-24.png" alt="Logo">
-                        <p>GitHub</p>
-                    </a>
-                </div>
-            </section>
+                        <a class="row c-gap-1" href="https://github.com/viggoStrom" target="_blank">
+                            <img src="assets/icon/icons8-github-24.png" alt="Logo">
+                            <p>GitHub</p>
+                        </a>
+                    </div>
+                </section>
 
-            <!-- General Info -->
-            <section>
-                <h3>Languages</h3>
+                <!-- General Info -->
+                <section class="flx-1">
+                    <h3>Languages</h3>
 
-                <div class="row between">
-                    <p>Swedish</p>
-                    <p>Fluent</p>
-                </div>
+                    <div class="row between w-5">
+                        <p>Swedish</p>
+                        <p>Fluent</p>
+                    </div>
 
-                <div class="row between">
-                    <p>English</p>
-                    <p>Fluent</p>
-                </div>
+                    <div class="row between w-5">
+                        <p>English</p>
+                        <p>Fluent</p>
+                    </div>
 
-                <h3>Other</h3>
-                <p>Drivers' license class B</p>
-            </section>
+                    <h3>Other</h3>
+                    <p>Drivers' license class B</p>
+                </section>
+            </div>
 
             <!-- About Me -->
-            <section class="c-span-2">
+            <section>
                 <h3>About Me</h3>
 
                 <p>
@@ -86,11 +88,11 @@
             </section>
 
             <!-- Skills -->
-            <section class="c-span-2">
+            <section class="">
                 <h3>Skills</h3>
 
                 <!-- First row -->
-                <div class="row between">
+                <div class="row between c-gap-15 col-if-small">
                     <p>JavaScript</p>
 
                     <p>Node.js</p>
@@ -100,10 +102,7 @@
                     <p>Electron</p>
 
                     <p>Python</p>
-                </div>
 
-                <!-- Second row -->
-                <div class="row between">
                     <p>Git & GitHub</p>
 
                     <p>Excel & Sheets</p>
@@ -115,7 +114,7 @@
             </section>
 
             <!-- Featured Projects -->
-            <section class="c-span-2">
+            <section>
                 <h3>Featured Projects</h3>
 
                 <!-- Project 1, Stockholm Trekkers Playlist Maker -->
@@ -129,12 +128,12 @@
 
                     <div>
                         <!-- Description -->
-                        <p class="w-9">
+                        <p class="w-9 m-bottom-2">
                             An Electron app used by the organization <a href="https://www.stockholmtrekkers.se" target="_blank">Stockholm Trekkers</a> to compile playlists that are played at our monthly events. The app focuses on user experience. I still maintain the and update app.
                         </p>
 
                         <!-- Technologies -->
-                        <div class="">
+                        <div class="m-bottom-2">
                             <h5>Technologies</h5>
 
                             <div class="row c-gap-10">
@@ -152,16 +151,16 @@
                                 <img src="assets/icon/icons8-github-24.png" alt="Logo">
 
                                 <p class="font-size-4">
-                                    Check out the <a href="https://github.com/viggoStrom/Stockholm-Trekkers-Playlist-Maker" target="_blank">GitHub page</a>.
+                                    Check it out on <a href="https://github.com/viggoStrom/Stockholm-Trekkers-Playlist-Maker" target="_blank">GitHub</a>.
                                 </p>
                             </div>
                         </div>
 
                         <!-- Screenshots -->
-                        <a class="grid cols-2" href="https://github.com/viggoStrom/Stockholm-Trekkers-Playlist-Maker" target="_blank">
+                        <div class="grid cols-2">
                             <img class="w-full p-2" src="https://github.com/viggoStrom/Stockholm-Trekkers-Playlist-Maker/raw/main/screenshots/projects-page.png" alt="Screenshot">
                             <img class="w-full p-2" src="https://github.com/viggoStrom/Stockholm-Trekkers-Playlist-Maker/raw/main/screenshots/project-exporting.png" alt="Screenshot">
-                        </a>
+                        </div>
                     </div>
                 </div>
 
@@ -176,21 +175,53 @@
 
                     <div>
                         <!-- Description -->
-                        <p class="w-9">
+                        <p class="w-9 m-bottom-2">
                             A mobile focused website that I made to replace the official Swedish National Radio app since it had bugs I couldn't stand. I use it daily. It uses their official --open-- API. I still maintain and update the site.
                         </p>
 
+                        <!-- Technologies -->
+                        <div class="m-bottom-2">
+                            <h5>Technologies</h5>
+
+                            <div class="row c-gap-10">
+                                <p>JavaScript</p>
+                                <p>HTML & CSS</p>
+                                <p>Web API</p>
+                            </div>
+                        </div>
+
+                        <!-- Links -->
+                        <div class="row between m-top-1 w-9">
+                            <!-- GitHub -->
+                            <div class="row c-gap-2">
+                                <img src="assets/icon/icons8-github-24.png" alt="Logo">
+
+                                <p class="font-size-4">
+                                    Check it out on <a href="https://github.com/viggoStrom/SR-Play-For-Me" target="_blank">GitHub</a>.
+                                </p>
+                            </div>
+
+                            <!-- Live site -->
+                            <div class="row c-gap-2">
+                                <img src="assets/icon/icons8-globe-24.png" alt="Icon">
+
+                                <p  class="font-size-4">
+                                    Look at the <a href="https://viggostrom.github.io/SR-Play-For-Me/" target="_blank">live site</a>.
+                                </p>
+                            </div>
+                        </div>
+
                         <!-- Images -->
-                        <a class="row vh-5" href="https://github.com/viggoStrom/SR-Play-For-Me" target="_blank">
+                        <div class="row vh-5">
                             <img class="h-full p-2" src="https://github.com/viggoStrom/SR-Play-For-Me/raw/main/screenshots/favorites-page.jpg" alt="Screenshot">
                             <img class="h-full p-2" src="https://github.com/viggoStrom/SR-Play-For-Me/raw/main/screenshots/programs-page.jpg" alt="Screenshot">
-                        </a>
+                        </div>
                     </div>
                 </div>
             </section>
 
             <!-- Volunteering -->
-            <section class="c-span-2">
+            <section>
                 <h3>Volunteering</h3>
 
                 <!-- SATURNUS -->
@@ -224,7 +255,7 @@
             </section>
 
             <!-- Education -->
-            <section class="c-span-2">
+            <section>
                 <h3>Education</h3>
 
                 <!-- NTI Gymnasieingenjör -->
@@ -253,7 +284,7 @@
             </section>
 
             <!-- Certificates -->
-            <section class="c-span-2">
+            <section>
                 <h3>Certificates</h3>
 
                 <p>Information Technology Specialist in JavaScript via CERTIPORT</p>
@@ -261,7 +292,7 @@
             </section>
 
             <!-- Fun Facts -->
-            <section class="c-span-2">
+            <section>
                 <h3>Fun Facts</h3>
 
                 <p>○ I run a ProxMox server from home that hosts a Minecraft server, some websites and my personal “cloud” storage.</p>
