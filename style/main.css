@@ -808,6 +808,102 @@ h5 {
     &.h-full {
         height: 100%;
     }
+
+    &.max-h-1 {
+        max-height: calc(var(--height-unit) * var(--height-1));
+    }
+
+    &.max-h-2 {
+        max-height: calc(var(--height-unit) * var(--height-2));
+    }
+
+    &.max-h-3 {
+        max-height: calc(var(--height-unit) * var(--height-3));
+    }
+
+    &.max-h-4 {
+        max-height: calc(var(--height-unit) * var(--height-4));
+    }
+
+    &.max-h-5 {
+        max-height: calc(var(--height-unit) * var(--height-5));
+    }
+
+    &.max-h-6 {
+        max-height: calc(var(--height-unit) * var(--height-6));
+    }
+
+    &.max-h-7 {
+        max-height: calc(var(--height-unit) * var(--height-7));
+    }
+
+    &.max-h-8 {
+        max-height: calc(var(--height-unit) * var(--height-8));
+    }
+
+    &.max-h-85 {
+        max-height: calc(var(--height-unit) * var(--height-85));
+    }
+
+    &.max-h-9 {
+        max-height: calc(var(--height-unit) * var(--height-9));
+    }
+
+    &.max-h-10 {
+        max-height: calc(var(--height-unit) * var(--height-10));
+    }
+
+    &.max-h-full {
+        max-height: 100%;
+    }
+
+    &.min-h-1 {
+        min-height: calc(var(--height-unit) * var(--height-1));
+    }
+
+    &.min-h-2 {
+        min-height: calc(var(--height-unit) * var(--height-2));
+    }
+
+    &.min-h-3 {
+        min-height: calc(var(--height-unit) * var(--height-3));
+    }
+
+    &.min-h-4 {
+        min-height: calc(var(--height-unit) * var(--height-4));
+    }
+
+    &.min-h-5 {
+        min-height: calc(var(--height-unit) * var(--height-5));
+    }
+
+    &.min-h-6 {
+        min-height: calc(var(--height-unit) * var(--height-6));
+    }
+
+    &.min-h-7 {
+        min-height: calc(var(--height-unit) * var(--height-7));
+    }
+
+    &.min-h-8 {
+        min-height: calc(var(--height-unit) * var(--height-8));
+    }
+
+    &.min-h-85 {
+        min-height: calc(var(--height-unit) * var(--height-85));
+    }
+
+    &.min-h-9 {
+        min-height: calc(var(--height-unit) * var(--height-9));
+    }
+
+    &.min-h-10 {
+        min-height: calc(var(--height-unit) * var(--height-10));
+    }
+
+    &.min-h-full {
+        min-height: 100%;
+    }
 }
 
 /* vh */
