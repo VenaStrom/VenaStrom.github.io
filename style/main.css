@@ -23,7 +23,6 @@
     font-weight: normal;
 
     word-spacing: 0.2ch;
-    line-height: 105%;
 }
 
 body {
@@ -38,6 +37,7 @@ body {
 /* Nested tree styling */
 #page {
     width: 60dvw;
+
     /* Small screen adjustment */
     @media (max-width: 860px) {
         width: 90dvw;
@@ -86,9 +86,10 @@ h3 {
 
 h4 {
     font-size: 1.125rem;
-    font-style: italic;
+    /* font-style: italic; */
+    font-weight: 500;
 
-    margin-top: calc(var(--m-top-unit) * var(--m-2));
+    margin-top: calc(var(--m-top-unit) * var(--m-1));
     margin-bottom: calc(var(--m-bottom-unit) * var(--m-1));
 }
 
