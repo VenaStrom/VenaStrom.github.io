@@ -525,6 +525,241 @@ h4 {
     }
 }
 
+/* Height */
+* {
+    --height-unit: 1%;
+    --height-1: 10;
+    --height-2: 20;
+    --height-3: 30;
+    --height-4: 40;
+    --height-5: 50;
+    --height-6: 60;
+    --height-7: 70;
+    --height-8: 80;
+    --height-85: 85;
+    --height-9: 90;
+    --height-10: 100;
+
+    &.h-1 {
+        height: calc(var(--height-unit) * var(--height-1));
+    }
+
+    &.h-2 {
+        height: calc(var(--height-unit) * var(--height-2));
+    }
+
+    &.h-3 {
+        height: calc(var(--height-unit) * var(--height-3));
+    }
+
+    &.h-4 {
+        height: calc(var(--height-unit) * var(--height-4));
+    }
+
+    &.h-5 {
+        height: calc(var(--height-unit) * var(--height-5));
+    }
+
+    &.h-6 {
+        height: calc(var(--height-unit) * var(--height-6));
+    }
+
+    &.h-7 {
+        height: calc(var(--height-unit) * var(--height-7));
+    }
+
+    &.h-8 {
+        height: calc(var(--height-unit) * var(--height-8));
+    }
+
+    &.h-85 {
+        height: calc(var(--height-unit) * var(--height-85));
+    }
+
+    &.h-9 {
+        height: calc(var(--height-unit) * var(--height-9));
+    }
+
+    &.h-10 {
+        height: calc(var(--height-unit) * var(--height-10));
+    }
+
+    &.h-auto {
+        height: auto;
+    }
+
+    &.h-full {
+        height: 100%;
+    }
+}
+
+/* vh */
+* {
+    --vh-unit: 1dvh;
+    --vh-1: 10;
+    --vh-2: 20;
+    --vh-3: 30;
+    --vh-4: 40;
+    --vh-5: 50;
+    --vh-6: 60;
+    --vh-7: 70;
+    --vh-8: 80;
+    --vh-9: 90;
+    --vh-10: 100;
+
+    &.vh-1 {
+        height: calc(var(--vh-unit) * var(--vh-1));
+    }
+
+    &.vh-2 {
+        height: calc(var(--vh-unit) * var(--vh-2));
+    }
+
+    &.vh-3 {
+        height: calc(var(--vh-unit) * var(--vh-3));
+    }
+
+    &.vh-4 {
+        height: calc(var(--vh-unit) * var(--vh-4));
+    }
+
+    &.vh-5 {
+        height: calc(var(--vh-unit) * var(--vh-5));
+    }
+
+    &.vh-6 {
+        height: calc(var(--vh-unit) * var(--vh-6));
+    }
+
+    &.vh-7 {
+        height: calc(var(--vh-unit) * var(--vh-7));
+    }
+
+    &.vh-8 {
+        height: calc(var(--vh-unit) * var(--vh-8));
+    }
+
+    &.vh-9 {
+        height: calc(var(--vh-unit) * var(--vh-9));
+    }
+
+    &.vh-10 {
+        height: calc(var(--vh-unit) * var(--vh-10));
+    }
+
+    &.vh-auto {
+        height: auto;
+    }
+}
+
+/* vw */
+* {
+    --vw-unit: 1dvw;
+    --vw-1: 10;
+    --vw-2: 20;
+    --vw-3: 30;
+    --vw-4: 40;
+    --vw-5: 50;
+    --vw-6: 60;
+    --vw-7: 70;
+    --vw-8: 80;
+    --vw-9: 90;
+    --vw-10: 100;
+
+    &.vw-1 {
+        width: calc(var(--vw-unit) * var(--vw-1));
+    }
+
+    &.vw-2 {
+        width: calc(var(--vw-unit) * var(--vw-2));
+    }
+
+    &.vw-3 {
+        width: calc(var(--vw-unit) * var(--vw-3));
+    }
+
+    &.vw-4 {
+        width: calc(var(--vw-unit) * var(--vw-4));
+    }
+
+    &.vw-5 {
+        width: calc(var(--vw-unit) * var(--vw-5));
+    }
+
+    &.vw-6 {
+        width: calc(var(--vw-unit) * var(--vw-6));
+    }
+
+    &.vw-7 {
+        width: calc(var(--vw-unit) * var(--vw-7));
+    }
+
+    &.vw-8 {
+        width: calc(var(--vw-unit) * var(--vw-8));
+    }
+
+    &.vw-9 {
+        width: calc(var(--vw-unit) * var(--vw-9));
+    }
+
+    &.vw-10 {
+        width: calc(var(--vw-unit) * var(--vw-10));
+    }
+}
+
+/* Font size */
+* {
+    --font-size-unit: 1rem;
+    --font-size-1: 0.7;
+    --font-size-2: 0.9;
+    --font-size-3: 1;
+    --font-size-4: 1.25;
+    --font-size-5: 1.5;
+    --font-size-6: 2;
+    --font-size-7: 2.5;
+    --font-size-8: 3;
+
+    &.font-size-1 {
+        font-size: calc(var(--font-size-unit) * var(--font-size-1));
+    }
+
+    &.font-size-2 {
+        font-size: calc(var(--font-size-unit) * var(--font-size-2));
+    }
+
+    &.font-size-3 {
+        font-size: calc(var(--font-size-unit) * var(--font-size-3));
+    }
+
+    &.font-size-4 {
+        font-size: calc(var(--font-size-unit) * var(--font-size-4));
+    }
+
+    &.font-size-5 {
+        font-size: calc(var(--font-size-unit) * var(--font-size-5));
+    }
+
+    &.font-size-6 {
+        font-size: calc(var(--font-size-unit) * var(--font-size-6));
+    }
+
+    &.font-size-7 {
+        font-size: calc(var(--font-size-unit) * var(--font-size-7));
+    }
+
+    &.font-size-8 {
+        font-size: calc(var(--font-size-unit) * var(--font-size-8));
+    }
+
+    &.font-size-auto {
+        font-size: auto;
+    }
+
+    &.font-size-inherit {
+        font-size: inherit;
+    }
+}
+
 /* / Tag wide styling */
 
 
