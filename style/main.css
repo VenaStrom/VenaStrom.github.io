@@ -24,7 +24,7 @@
         padding-left: calc(var(--m-left-unit) * var(--p-7));
         padding-right: calc(var(--m-right-unit) * var(--p-7));
     }
-    
+
     background-color: var(--color-page-bg);
 
     &>main {
@@ -34,17 +34,72 @@
             }
         }
 
-        & #featured-projects .screenshots {
+        & #skills div.row {
+            @media (max-width: 860px) {}
+        }
+
+        & #volunteering-and-education {
             @media (max-width: 860px) {
-                &.landscape {
-                    & img {
-                        width: 100%;
+                flex-direction: column;
+
+                row-gap: calc(var(--row-unit) * var(--gap-4));
+            }
+
+            & h4 {
+                margin-top: calc(var(--m-top-unit) * var(--m-1));
+            }
+
+            & p:last-of-type {
+                margin-top: calc(var(--m-top-unit) * var(--m-1));
+                margin-bottom: calc(var(--m-bottom-unit) * var(--m-4));
+            }
+        }
+
+        & #featured-projects {
+            & h4 {
+                margin-top: calc(var(--m-top-unit) * var(--m-1));
+            }
+
+            &>div {
+                &:last-child {
+                    margin-top: calc(var(--m-top-unit) * var(--m-4));
+
+                    &>div:last-of-type {
+                        margin-bottom: 0;
                     }
                 }
 
-                &.portrait {
-                    & img {
-                        width: 50%;
+                &>div {
+                    margin-top: calc(var(--m-top-unit) * var(--m-1));
+                    margin-bottom: calc(var(--m-bottom-unit) * var(--m-4));
+
+                    & .technologies {
+                        & h5 {
+                            margin-top: calc(var(--m-top-unit) * var(--m-2));
+                            margin-bottom: calc(var(--m-bottom-unit) * var(--m-05));
+                        }
+
+                        margin-bottom: calc(var(--m-bottom-unit) * var(--m-3));
+                    }
+
+                    & .links {
+                        margin-bottom: calc(var(--m-bottom-unit) * var(--m-1));
+                    }
+
+                    & .screenshots {
+                        @media (max-width: 860px) {
+                            &.landscape {
+                                & img {
+                                    width: 100% !important;
+                                }
+                            }
+
+                            &.portrait {
+                                & img {
+                                    width: 50% !important;
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -104,22 +159,28 @@ h2 {
 
 h3 {
     font-size: 1.5rem;
-
-    margin-top: calc(var(--m-top-unit) * var(--m-7));
+    font-weight: bold;
 }
 
 h4 {
-    font-size: 1.2rem;
-    font-weight: bold;
-
-    margin-top: calc(var(--m-top-unit) * var(--m-3));
+    font-size: 1.3rem;
+    font-weight: 500;
 }
 
 h5 {
-    font-size: 1.125rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
 
-    margin-top: calc(var(--m-top-unit) * var(--m-3));
-    margin-bottom: calc(var(--m-bottom-unit) * var(--m-2));
+hr {
+    border: 0;
+    border-top: 1px solid var(--color-fg);
+
+    &.thin {
+        border: 0;
+        border-top: 0.5px solid var(--color-fg);
+        opacity: 0.5;
+    }
 }
 
 /* Margin */
@@ -1368,6 +1429,10 @@ h5 {
     &.start {
         align-items: start;
     }
+
+    &.end {
+        align-items: end;
+    }
 }
 
 .col {
@@ -1406,6 +1471,7 @@ h5 {
     --gap-3: 0.7;
     --gap-4: 1;
     --gap-10: 4;
+    --gap-11: 5;
     --gap-15: 10;
     --gap-20: 20;
 
@@ -1432,6 +1498,10 @@ h5 {
 
     &.r-gap-10 {
         row-gap: calc(var(--row-unit) * var(--gap-10));
+    }
+
+    &.r-gap-11 {
+        row-gap: calc(var(--row-unit) * var(--gap-11));
     }
 
     &.r-gap-15 {
@@ -1467,6 +1537,10 @@ h5 {
         column-gap: calc(var(--col-unit) * var(--gap-10));
     }
 
+    &.c-gap-11 {
+        column-gap: calc(var(--col-unit) * var(--gap-11));
+    }
+
     &.c-gap-15 {
         column-gap: calc(var(--col-unit) * var(--gap-15));
     }
@@ -1498,6 +1572,10 @@ h5 {
 
     &.gap-10 {
         gap: calc(var(--row-unit) * var(--gap-10)) calc(var(--col-unit) * var(--gap-10));
+    }
+
+    &.gap-11 {
+        gap: calc(var(--row-unit) * var(--gap-11)) calc(var(--col-unit) * var(--gap-11));
     }
 
     &.gap-15 {
