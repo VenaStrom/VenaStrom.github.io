@@ -15,16 +15,34 @@
 
 /* Nested tree styling */
 #page {
-    width: 60dvw;
+    width: 70dvw;
 
     /* Small screen adjustment */
     @media (max-width: 860px) {
         width: 90dvw;
+
+        padding-left: calc(var(--m-left-unit) * var(--p-7));
+        padding-right: calc(var(--m-right-unit) * var(--p-7));
     }
 
     background-color: var(--color-page-bg);
 
-    &>main {}
+    &>main {
+        & #featured-projects .screenshots {
+            @media (max-width: 860px) {
+                &.landscape {
+                    & img {
+                        width: 100%;
+                    }
+                }
+                &.portrait {
+                    & img {
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
 }
 
 /* / Nested tree styling */
@@ -79,27 +97,23 @@ h2 {
 
 h3 {
     font-size: 1.5rem;
-    /* font-weight: bold; */
 
-    margin-top: calc(var(--m-top-unit) * var(--m-5));
-    margin-bottom: calc(var(--m-bottom-unit) * var(--m-1));
+    margin-top: calc(var(--m-top-unit) * var(--m-7));
+    /* margin-bottom: calc(var(--m-bottom-unit) * var(--m-1)); */
 }
 
 h4 {
-    font-size: 1.125rem;
-    /* font-style: italic; */
-    /* font-weight: 500; */
+    font-size: 1.2rem;
     font-weight: bold;
 
-    margin-top: calc(var(--m-top-unit) * var(--m-1));
-    margin-bottom: calc(var(--m-bottom-unit) * var(--m-1));
+    margin-top: calc(var(--m-top-unit) * var(--m-3));
 }
 
 h5 {
-    font-size: 1.1rem;
-    font-weight: 500;
+    font-size: 1.125rem;
 
-    margin-top: calc(var(--m-top-unit) * var(--m-1));
+    margin-top: calc(var(--m-top-unit) * var(--m-3));
+    margin-bottom: calc(var(--m-bottom-unit) * var(--m-2));
 }
 
 /* Margin */
@@ -109,6 +123,7 @@ h5 {
     --m-bottom-unit: 1rem;
     --m-left-unit: 1ch;
 
+    --m-0: 0;
     --m-1: 0.3;
     --m-2: 0.5;
     --m-3: 0.7;
@@ -122,6 +137,22 @@ h5 {
     --m-12: 7;
     --m-15: 10;
     --m-20: 20;
+
+    &.m-top-0 {
+        margin-top: calc(var(--m-top-unit) * var(--m-0)) !important;
+    }
+
+    &.m-right-0 {
+        margin-right: calc(var(--m-right-unit) * var(--m-0)) !important;
+    }
+
+    &.m-bottom-0 {
+        margin-bottom: calc(var(--m-bottom-unit) * var(--m-0)) !important;
+    }
+
+    &.m-left-0 {
+        margin-left: calc(var(--m-left-unit) * var(--m-0)) !important;
+    }
 
     &.m-top-1 {
         margin-top: calc(var(--m-top-unit) * var(--m-1)) !important;
@@ -331,6 +362,10 @@ h5 {
         margin-left: calc(var(--m-left-unit) * var(--m-20)) !important;
     }
 
+    &.m-0 {
+        margin: 0;
+    }
+
     &.m-1 {
         margin: calc(var(--m-top-unit) * var(--m-1)) calc(var(--m-right-unit) * var(--m-1)) calc(var(--m-bottom-unit) * var(--m-1)) calc(var(--m-left-unit) * var(--m-1));
     }
@@ -395,6 +430,7 @@ h5 {
     --p-bottom-unit: 1rem;
     --p-left-unit: 1ch;
 
+    --p-0: 0;
     --p-1: 0.3;
     --p-2: 0.5;
     --p-3: 0.7;
@@ -408,6 +444,22 @@ h5 {
     --p-12: 7;
     --p-15: 10;
     --p-20: 20;
+
+    &.p-top-0 {
+        padding-top: calc(var(--p-top-unit) * var(--p-0)) !important;
+    }
+
+    &.p-right-0 {
+        padding-right: calc(var(--p-right-unit) * var(--p-0)) !important;
+    }
+
+    &.p-bottom-0 {
+        padding-bottom: calc(var(--p-bottom-unit) * var(--p-0)) !important;
+    }
+
+    &.p-left-0 {
+        padding-left: calc(var(--p-left-unit) * var(--p-0)) !important;
+    }
 
     &.p-top-1 {
         padding-top: calc(var(--p-top-unit) * var(--p-1)) !important;
@@ -615,6 +667,10 @@ h5 {
 
     &.p-left-20 {
         padding-left: calc(var(--p-left-unit) * var(--p-20)) !important;
+    }
+
+    &.p-0 {
+        padding: 0;
     }
 
     &.p-1 {
@@ -1209,6 +1265,17 @@ h5 {
     }
 }
 
+/* Font Weight */
+* {
+    &.font-weight-500 {
+        font-weight: 500;
+
+        &>* {
+            font-weight: 500;
+        }
+    }
+}
+
 /* Text align */
 * {
     &.text-left {
@@ -1232,6 +1299,14 @@ h5 {
 
 
 /* Class wide styling */
+.mobile {
+    display: none;
+
+    @media (max-width: 768px) {
+        display: flex;
+    }
+}
+
 .grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -1289,6 +1364,10 @@ h5 {
 
     &.center {
         justify-content: center;
+    }
+
+    &.start {
+        align-items: start;
     }
 }
 
@@ -1438,18 +1517,13 @@ h5 {
     .flx-1 {
         flex: 1;
     }
-}
 
-/* Dynamic flow functions */
-.grid,
-.row,
-.col {
-    &.col-if-small {
-        @media (max-width: 768px) {
-            flex-direction: column;
-            align-items: start;
-            row-gap: calc(var(--row-unit) * var(--gap-05));
-        }
+    .flx-2 {
+        flex: 2;
+    }
+
+    .flx-3 {
+        flex: 3;
     }
 }
 
