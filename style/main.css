@@ -76,6 +76,10 @@
             }
 
             &>div {
+                &>div:first-of-type {
+                    margin-top: calc(var(--m-top-unit) * var(--m-1));
+                }
+
                 &:last-child {
                     margin-top: calc(var(--m-top-unit) * var(--m-4));
 
@@ -84,21 +88,20 @@
                     }
                 }
 
-                &>div {
+                &>div:last-of-type {
                     margin-top: calc(var(--m-top-unit) * var(--m-1));
                     margin-bottom: calc(var(--m-bottom-unit) * var(--m-4));
 
                     & .technologies {
-                        & h5 {
-                            margin-top: calc(var(--m-top-unit) * var(--m-2));
-                            margin-bottom: calc(var(--m-bottom-unit) * var(--m-05));
-                        }
+                        margin-top: calc(var(--m-top-unit) * var(--m-4));
+                        margin-bottom: calc(var(--m-bottom-unit) * var(--m-4));
 
-                        margin-bottom: calc(var(--m-bottom-unit) * var(--m-3));
+                        row-gap: calc(var(--row-unit) * var(--gap-05));
                     }
 
                     & .links {
-                        margin-bottom: calc(var(--m-bottom-unit) * var(--m-1));
+                        margin-top: calc(var(--m-top-unit) * var(--m-1));
+                        margin-bottom: calc(var(--m-bottom-unit) * var(--m-2));
                     }
 
                     & .screenshots {
