@@ -34,15 +34,9 @@
         }
 
         & #skills div.row {
-            @media (max-width: 860px) {
-                /* flex-direction: column; */
-                /* height: 10rem; */
-                column-gap: 2ch;
-                justify-content: space-between;
-            }
-
-            & * {
-                flex: 1;
+            * {
+                width: 21ch;
+                margin-right: calc(var(--m-right-unit) * var(--m-10));
             }
         }
 
