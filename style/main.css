@@ -20,7 +20,6 @@
 
     /* Small screen adjustment */
     @media (max-width: 860px) {
-
         padding-left: calc(var(--m-left-unit) * var(--p-7));
         padding-right: calc(var(--m-right-unit) * var(--p-7));
     }
@@ -35,7 +34,16 @@
         }
 
         & #skills div.row {
-            @media (max-width: 860px) {}
+            @media (max-width: 860px) {
+                /* flex-direction: column; */
+                /* height: 10rem; */
+                column-gap: 2ch;
+                justify-content: space-between;
+            }
+
+            & * {
+                flex: 1;
+            }
         }
 
         & #volunteering-and-education {
@@ -45,9 +53,18 @@
                 row-gap: calc(var(--row-unit) * var(--gap-4));
             }
 
+            &>hr {
+                display: none;
+
+                @media (max-width: 860px) {
+                    display: block;
+                }
+            }
+
             & h4 {
                 margin-top: calc(var(--m-top-unit) * var(--m-1));
             }
+
 
             & p:last-of-type {
                 margin-top: calc(var(--m-top-unit) * var(--m-1));
@@ -173,6 +190,8 @@ h5 {
 }
 
 hr {
+    width: 100%;
+
     border: 0;
     border-top: 1px solid var(--color-fg);
 
