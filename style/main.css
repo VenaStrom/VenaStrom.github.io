@@ -28,6 +28,12 @@
     background-color: var(--color-page-bg);
 
     &>main {
+        & #contact {
+            @media (max-width: 860px) {
+                width: 100% !important;
+            }
+        }
+
         & #featured-projects .screenshots {
             @media (max-width: 860px) {
                 &.landscape {
@@ -35,6 +41,7 @@
                         width: 100%;
                     }
                 }
+
                 &.portrait {
                     & img {
                         width: 50%;
@@ -99,7 +106,6 @@ h3 {
     font-size: 1.5rem;
 
     margin-top: calc(var(--m-top-unit) * var(--m-7));
-    /* margin-bottom: calc(var(--m-bottom-unit) * var(--m-1)); */
 }
 
 h4 {
@@ -746,47 +752,47 @@ h5 {
     --width-10: 100;
 
     &.w-1 {
-        width: calc(var(--width-unit) * var(--width-1));
+        width: calc(var(--width-unit) * var(--width-1)) !important;
     }
 
     &.w-2 {
-        width: calc(var(--width-unit) * var(--width-2));
+        width: calc(var(--width-unit) * var(--width-2)) !important;
     }
 
     &.w-3 {
-        width: calc(var(--width-unit) * var(--width-3));
+        width: calc(var(--width-unit) * var(--width-3)) !important;
     }
 
     &.w-4 {
-        width: calc(var(--width-unit) * var(--width-4));
+        width: calc(var(--width-unit) * var(--width-4)) !important;
     }
 
     &.w-5 {
-        width: calc(var(--width-unit) * var(--width-5));
+        width: calc(var(--width-unit) * var(--width-5)) !important;
     }
 
     &.w-6 {
-        width: calc(var(--width-unit) * var(--width-6));
+        width: calc(var(--width-unit) * var(--width-6)) !important;
     }
 
     &.w-7 {
-        width: calc(var(--width-unit) * var(--width-7));
+        width: calc(var(--width-unit) * var(--width-7)) !important;
     }
 
     &.w-8 {
-        width: calc(var(--width-unit) * var(--width-8));
+        width: calc(var(--width-unit) * var(--width-8)) !important;
     }
 
     &.w-85 {
-        width: calc(var(--width-unit) * var(--width-85));
+        width: calc(var(--width-unit) * var(--width-85)) !important;
     }
 
     &.w-9 {
-        width: calc(var(--width-unit) * var(--width-9));
+        width: calc(var(--width-unit) * var(--width-9)) !important;
     }
 
     &.w-10 {
-        width: calc(var(--width-unit) * var(--width-10));
+        width: calc(var(--width-unit) * var(--width-10)) !important;
     }
 
     &.w-auto {
@@ -798,47 +804,47 @@ h5 {
     }
 
     &.max-w-1 {
-        max-width: calc(var(--width-unit) * var(--width-1));
+        max-width: calc(var(--width-unit) * var(--width-1)) !important;
     }
 
     &.max-w-2 {
-        max-width: calc(var(--width-unit) * var(--width-2));
+        max-width: calc(var(--width-unit) * var(--width-2)) !important;
     }
 
     &.max-w-3 {
-        max-width: calc(var(--width-unit) * var(--width-3));
+        max-width: calc(var(--width-unit) * var(--width-3)) !important;
     }
 
     &.max-w-4 {
-        max-width: calc(var(--width-unit) * var(--width-4));
+        max-width: calc(var(--width-unit) * var(--width-4)) !important;
     }
 
     &.max-w-5 {
-        max-width: calc(var(--width-unit) * var(--width-5));
+        max-width: calc(var(--width-unit) * var(--width-5)) !important;
     }
 
     &.max-w-6 {
-        max-width: calc(var(--width-unit) * var(--width-6));
+        max-width: calc(var(--width-unit) * var(--width-6)) !important;
     }
 
     &.max-w-7 {
-        max-width: calc(var(--width-unit) * var(--width-7));
+        max-width: calc(var(--width-unit) * var(--width-7)) !important;
     }
 
     &.max-w-8 {
-        max-width: calc(var(--width-unit) * var(--width-8));
+        max-width: calc(var(--width-unit) * var(--width-8)) !important;
     }
 
     &.max-w-85 {
-        max-width: calc(var(--width-unit) * var(--width-85));
+        max-width: calc(var(--width-unit) * var(--width-85)) !important;
     }
 
     &.max-w-9 {
-        max-width: calc(var(--width-unit) * var(--width-9));
+        max-width: calc(var(--width-unit) * var(--width-9)) !important;
     }
 
     &.max-w-10 {
-        max-width: calc(var(--width-unit) * var(--width-10));
+        max-width: calc(var(--width-unit) * var(--width-10)) !important;
     }
 
     &.max-w-full {
@@ -846,47 +852,47 @@ h5 {
     }
 
     &.min-w-1 {
-        min-width: calc(var(--width-unit) * var(--width-1));
+        min-width: calc(var(--width-unit) * var(--width-1)) !important;
     }
 
     &.min-w-2 {
-        min-width: calc(var(--width-unit) * var(--width-2));
+        min-width: calc(var(--width-unit) * var(--width-2)) !important;
     }
 
     &.min-w-3 {
-        min-width: calc(var(--width-unit) * var(--width-3));
+        min-width: calc(var(--width-unit) * var(--width-3)) !important;
     }
 
     &.min-w-4 {
-        min-width: calc(var(--width-unit) * var(--width-4));
+        min-width: calc(var(--width-unit) * var(--width-4)) !important;
     }
 
     &.min-w-5 {
-        min-width: calc(var(--width-unit) * var(--width-5));
+        min-width: calc(var(--width-unit) * var(--width-5)) !important;
     }
 
     &.min-w-6 {
-        min-width: calc(var(--width-unit) * var(--width-6));
+        min-width: calc(var(--width-unit) * var(--width-6)) !important;
     }
 
     &.min-w-7 {
-        min-width: calc(var(--width-unit) * var(--width-7));
+        min-width: calc(var(--width-unit) * var(--width-7)) !important;
     }
 
     &.min-w-8 {
-        min-width: calc(var(--width-unit) * var(--width-8));
+        min-width: calc(var(--width-unit) * var(--width-8)) !important;
     }
 
     &.min-w-85 {
-        min-width: calc(var(--width-unit) * var(--width-85));
+        min-width: calc(var(--width-unit) * var(--width-85)) !important;
     }
 
     &.min-w-9 {
-        min-width: calc(var(--width-unit) * var(--width-9));
+        min-width: calc(var(--width-unit) * var(--width-9)) !important;
     }
 
     &.min-w-10 {
-        min-width: calc(var(--width-unit) * var(--width-10));
+        min-width: calc(var(--width-unit) * var(--width-10)) !important;
     }
 
     &.min-w-full {
@@ -910,47 +916,47 @@ h5 {
     --height-10: 100;
 
     &.h-1 {
-        height: calc(var(--height-unit) * var(--height-1));
+        height: calc(var(--height-unit) * var(--height-1)) !important;
     }
 
     &.h-2 {
-        height: calc(var(--height-unit) * var(--height-2));
+        height: calc(var(--height-unit) * var(--height-2)) !important;
     }
 
     &.h-3 {
-        height: calc(var(--height-unit) * var(--height-3));
+        height: calc(var(--height-unit) * var(--height-3)) !important;
     }
 
     &.h-4 {
-        height: calc(var(--height-unit) * var(--height-4));
+        height: calc(var(--height-unit) * var(--height-4)) !important;
     }
 
     &.h-5 {
-        height: calc(var(--height-unit) * var(--height-5));
+        height: calc(var(--height-unit) * var(--height-5)) !important;
     }
 
     &.h-6 {
-        height: calc(var(--height-unit) * var(--height-6));
+        height: calc(var(--height-unit) * var(--height-6)) !important;
     }
 
     &.h-7 {
-        height: calc(var(--height-unit) * var(--height-7));
+        height: calc(var(--height-unit) * var(--height-7)) !important;
     }
 
     &.h-8 {
-        height: calc(var(--height-unit) * var(--height-8));
+        height: calc(var(--height-unit) * var(--height-8)) !important;
     }
 
     &.h-85 {
-        height: calc(var(--height-unit) * var(--height-85));
+        height: calc(var(--height-unit) * var(--height-85)) !important;
     }
 
     &.h-9 {
-        height: calc(var(--height-unit) * var(--height-9));
+        height: calc(var(--height-unit) * var(--height-9)) !important;
     }
 
     &.h-10 {
-        height: calc(var(--height-unit) * var(--height-10));
+        height: calc(var(--height-unit) * var(--height-10)) !important;
     }
 
     &.h-auto {
@@ -962,47 +968,47 @@ h5 {
     }
 
     &.max-h-1 {
-        max-height: calc(var(--height-unit) * var(--height-1));
+        max-height: calc(var(--height-unit) * var(--height-1)) !important;
     }
 
     &.max-h-2 {
-        max-height: calc(var(--height-unit) * var(--height-2));
+        max-height: calc(var(--height-unit) * var(--height-2)) !important;
     }
 
     &.max-h-3 {
-        max-height: calc(var(--height-unit) * var(--height-3));
+        max-height: calc(var(--height-unit) * var(--height-3)) !important;
     }
 
     &.max-h-4 {
-        max-height: calc(var(--height-unit) * var(--height-4));
+        max-height: calc(var(--height-unit) * var(--height-4)) !important;
     }
 
     &.max-h-5 {
-        max-height: calc(var(--height-unit) * var(--height-5));
+        max-height: calc(var(--height-unit) * var(--height-5)) !important;
     }
 
     &.max-h-6 {
-        max-height: calc(var(--height-unit) * var(--height-6));
+        max-height: calc(var(--height-unit) * var(--height-6)) !important;
     }
 
     &.max-h-7 {
-        max-height: calc(var(--height-unit) * var(--height-7));
+        max-height: calc(var(--height-unit) * var(--height-7)) !important;
     }
 
     &.max-h-8 {
-        max-height: calc(var(--height-unit) * var(--height-8));
+        max-height: calc(var(--height-unit) * var(--height-8)) !important;
     }
 
     &.max-h-85 {
-        max-height: calc(var(--height-unit) * var(--height-85));
+        max-height: calc(var(--height-unit) * var(--height-85)) !important;
     }
 
     &.max-h-9 {
-        max-height: calc(var(--height-unit) * var(--height-9));
+        max-height: calc(var(--height-unit) * var(--height-9)) !important;
     }
 
     &.max-h-10 {
-        max-height: calc(var(--height-unit) * var(--height-10));
+        max-height: calc(var(--height-unit) * var(--height-10)) !important;
     }
 
     &.max-h-full {
@@ -1010,47 +1016,47 @@ h5 {
     }
 
     &.min-h-1 {
-        min-height: calc(var(--height-unit) * var(--height-1));
+        min-height: calc(var(--height-unit) * var(--height-1)) !important;
     }
 
     &.min-h-2 {
-        min-height: calc(var(--height-unit) * var(--height-2));
+        min-height: calc(var(--height-unit) * var(--height-2)) !important;
     }
 
     &.min-h-3 {
-        min-height: calc(var(--height-unit) * var(--height-3));
+        min-height: calc(var(--height-unit) * var(--height-3)) !important;
     }
 
     &.min-h-4 {
-        min-height: calc(var(--height-unit) * var(--height-4));
+        min-height: calc(var(--height-unit) * var(--height-4)) !important;
     }
 
     &.min-h-5 {
-        min-height: calc(var(--height-unit) * var(--height-5));
+        min-height: calc(var(--height-unit) * var(--height-5)) !important;
     }
 
     &.min-h-6 {
-        min-height: calc(var(--height-unit) * var(--height-6));
+        min-height: calc(var(--height-unit) * var(--height-6)) !important;
     }
 
     &.min-h-7 {
-        min-height: calc(var(--height-unit) * var(--height-7));
+        min-height: calc(var(--height-unit) * var(--height-7)) !important;
     }
 
     &.min-h-8 {
-        min-height: calc(var(--height-unit) * var(--height-8));
+        min-height: calc(var(--height-unit) * var(--height-8)) !important;
     }
 
     &.min-h-85 {
-        min-height: calc(var(--height-unit) * var(--height-85));
+        min-height: calc(var(--height-unit) * var(--height-85)) !important;
     }
 
     &.min-h-9 {
-        min-height: calc(var(--height-unit) * var(--height-9));
+        min-height: calc(var(--height-unit) * var(--height-9)) !important;
     }
 
     &.min-h-10 {
-        min-height: calc(var(--height-unit) * var(--height-10));
+        min-height: calc(var(--height-unit) * var(--height-10)) !important;
     }
 
     &.min-h-full {
@@ -1073,43 +1079,43 @@ h5 {
     --vh-10: 100;
 
     &.vh-1 {
-        height: calc(var(--vh-unit) * var(--vh-1));
+        height: calc(var(--vh-unit) * var(--vh-1)) !important;
     }
 
     &.vh-2 {
-        height: calc(var(--vh-unit) * var(--vh-2));
+        height: calc(var(--vh-unit) * var(--vh-2)) !important;
     }
 
     &.vh-3 {
-        height: calc(var(--vh-unit) * var(--vh-3));
+        height: calc(var(--vh-unit) * var(--vh-3)) !important;
     }
 
     &.vh-4 {
-        height: calc(var(--vh-unit) * var(--vh-4));
+        height: calc(var(--vh-unit) * var(--vh-4)) !important;
     }
 
     &.vh-5 {
-        height: calc(var(--vh-unit) * var(--vh-5));
+        height: calc(var(--vh-unit) * var(--vh-5)) !important;
     }
 
     &.vh-6 {
-        height: calc(var(--vh-unit) * var(--vh-6));
+        height: calc(var(--vh-unit) * var(--vh-6)) !important;
     }
 
     &.vh-7 {
-        height: calc(var(--vh-unit) * var(--vh-7));
+        height: calc(var(--vh-unit) * var(--vh-7)) !important;
     }
 
     &.vh-8 {
-        height: calc(var(--vh-unit) * var(--vh-8));
+        height: calc(var(--vh-unit) * var(--vh-8)) !important;
     }
 
     &.vh-9 {
-        height: calc(var(--vh-unit) * var(--vh-9));
+        height: calc(var(--vh-unit) * var(--vh-9)) !important;
     }
 
     &.vh-10 {
-        height: calc(var(--vh-unit) * var(--vh-10));
+        height: calc(var(--vh-unit) * var(--vh-10)) !important;
     }
 
     &.vh-auto {
@@ -1132,43 +1138,43 @@ h5 {
     --vw-10: 100;
 
     &.vw-1 {
-        width: calc(var(--vw-unit) * var(--vw-1));
+        width: calc(var(--vw-unit) * var(--vw-1)) !important;
     }
 
     &.vw-2 {
-        width: calc(var(--vw-unit) * var(--vw-2));
+        width: calc(var(--vw-unit) * var(--vw-2)) !important;
     }
 
     &.vw-3 {
-        width: calc(var(--vw-unit) * var(--vw-3));
+        width: calc(var(--vw-unit) * var(--vw-3)) !important;
     }
 
     &.vw-4 {
-        width: calc(var(--vw-unit) * var(--vw-4));
+        width: calc(var(--vw-unit) * var(--vw-4)) !important;
     }
 
     &.vw-5 {
-        width: calc(var(--vw-unit) * var(--vw-5));
+        width: calc(var(--vw-unit) * var(--vw-5)) !important;
     }
 
     &.vw-6 {
-        width: calc(var(--vw-unit) * var(--vw-6));
+        width: calc(var(--vw-unit) * var(--vw-6)) !important;
     }
 
     &.vw-7 {
-        width: calc(var(--vw-unit) * var(--vw-7));
+        width: calc(var(--vw-unit) * var(--vw-7)) !important;
     }
 
     &.vw-8 {
-        width: calc(var(--vw-unit) * var(--vw-8));
+        width: calc(var(--vw-unit) * var(--vw-8)) !important;
     }
 
     &.vw-9 {
-        width: calc(var(--vw-unit) * var(--vw-9));
+        width: calc(var(--vw-unit) * var(--vw-9)) !important;
     }
 
     &.vw-10 {
-        width: calc(var(--vw-unit) * var(--vw-10));
+        width: calc(var(--vw-unit) * var(--vw-10)) !important;
     }
 }
 
@@ -1299,13 +1305,6 @@ h5 {
 
 
 /* Class wide styling */
-.mobile {
-    display: none;
-
-    @media (max-width: 768px) {
-        display: flex;
-    }
-}
 
 .grid {
     display: grid;
