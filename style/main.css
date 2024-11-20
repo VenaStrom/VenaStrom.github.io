@@ -15,16 +15,16 @@
 
 /* Nested tree styling */
 #page {
-    width: 70dvw;
+    width: 100ch;
+    max-width: 95dvw;
 
     /* Small screen adjustment */
     @media (max-width: 860px) {
-        width: 90dvw;
 
         padding-left: calc(var(--m-left-unit) * var(--p-7));
         padding-right: calc(var(--m-right-unit) * var(--p-7));
     }
-
+    
     background-color: var(--color-page-bg);
 
     &>main {
