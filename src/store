@@ -7,64 +7,6 @@
   </header>
 
   <main class="col r-gap-4">
-    <!-- Contact -->
-    <section id="contact" class="w-5">
-      <h3>Contact</h3>
-
-      <!-- Line items -->
-      <div class="row between">
-        <p>Phone</p> <a href="tel:+46723274281" target="_blank">072-327 42 81</a>
-      </div>
-
-      <div class="row between">
-        <p>Email</p> <a href="mailto:strom.vena+portfolio@gmail.com" target="_blank">strom.vena@gmail.com</a>
-      </div>
-
-      <!-- Links with icons -->
-      <div class="row evenly m-top-3">
-        <a class="row c-gap-1" href="http://linkedin.com/in/viggo-ström-74b618332" target="_blank">
-          <img src="assets/icon/icons8-linkedin-24.png" alt="Website">
-          <p>LinkedIn</p>
-        </a>
-
-        <a class="row c-gap-1" href="https://github.com/VenaStrom" target="_blank">
-          <img src="assets/icon/icons8-github-24.png" alt="GitHub">
-          <p>GitHub</p>
-        </a>
-      </div>
-    </section>
-
-    <hr>
-
-    <!-- Skills -->
-    <section id="skills">
-      <h3>Skills</h3>
-
-      <div class="row r-gap-1">
-        <p>○ JavaScript/TypeScript</p>
-        <p>○ React</p>
-        <p>○ Nextjs</p>
-        <p>○ Node.js</p>
-        <p>○ HTML & CSS</p>
-        <p>○ Prisma</p>
-        <p>○ C# (WPF)</p>
-        <p>○ Electron</p>
-        <p>○ Python</p>
-        <p>○ Playwright</p>
-        <p>○ Selenium</p>
-        <p>○ Git & GitHub</p>
-        <p>○ SCRUM (Agile)</p>
-        <p>○ Excel & Sheets</p>
-        <p>○ Adobe Photoshop</p>
-        <p>○ Autodesk Fusion 360</p>
-        <p>○ 3D printing</p>
-        <p>○ Drivers' license class B</p>
-        <p>○ Computer hardware</p>
-        <p>○ Networking</p>
-        <p>○ Proxmox</p>
-      </div>
-    </section>
-
     <hr>
 
     <!-- Experience -->
