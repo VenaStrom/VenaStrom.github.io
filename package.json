@@ -1,0 +1,16 @@
+{
+  "name": "venastrom.github.io",
+  "version": "0.1.0",
+  "repository": "https://github.com/VenaStrom/VenaStrom.github.io.git",
+  "author": "Vena <strom.vena+gh@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^9.35.0",
+    "typescript": "^5.9.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "vite": "^7.1.5"
+  }
+}
