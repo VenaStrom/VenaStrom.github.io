@@ -4,5 +4,7 @@
     "target": "es2024",
     "module": "nodenext",
     "jsx": "preserve",
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
   }
 }
