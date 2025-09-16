@@ -1,4 +1,4 @@
-import info from "../info.json" with { type: "json"};
+import { info } from "../info.tsx";
 
 export default function Contact({ className = "" }: { className?: string }) {
   return (
