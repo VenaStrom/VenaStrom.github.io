@@ -116,7 +116,7 @@ export const info: {
         NTI-gymnasiet has a program where students can become ambassadors for the school to represent
         it at events such as <a href="https://www.uppsala.se/kampanjsidor/gymnasiemassan/" target="_blank">Gymnasiemässan</a> and <a href="https://ntigymnasiet.se/uppsala/oppet-hus/" target="_blank">open houses</a>.
         If you are selected to the program you attend a workshop/course in Stockholm about public speaking and presentation skills.
-        
+        My years in the program were great fun and I got to meet a lot of new people.
       </>,
     },
   ],

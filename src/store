@@ -4,27 +4,6 @@
 
     <!-- Volunteering & Education -->
     <div id="volunteering-and-education" class="row start c-gap-10">
-      <!-- Volunteering -->
-      <section class="flx-1">
-
-        <!-- NTI Gymnasiet School Ambassador -->
-        <div>
-          <h4>NTI Gymnasiet - School Ambassador</h4>
-
-          <!-- Time Span -->
-          <p class="font-weight-500 row c-gap-1">
-            <img class="ch-2" src="assets/icon/calendar_month_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt="Calender">
-            Oct 2022 - Present
-          </p>
-
-          <p class="m-bottom-0">
-            My school has a program where engaged students can work for the school as ambassadors, representing
-            the school at different events.
-          </p>
-        </div>
-      </section>
-
-      <hr>
 
       <!-- Education -->
       <section class="flx-1">
