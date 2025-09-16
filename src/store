@@ -2,42 +2,6 @@
 <div id="page" class="col center p-10 p-top-4 m-top-4 m-bottom-10">
   <main class="col r-gap-4">
 
-    <!-- Volunteering & Education -->
-    <div id="volunteering-and-education" class="row start c-gap-10">
-
-      <!-- Education -->
-      <section class="flx-1">
-        <h3>Education</h3>
-
-        <!-- NTI Gymnasieingenjör -->
-        <div>
-          <h4>NTI Gymnasiet Uppsala</h4>
-
-          <!-- Time Span -->
-          <p class="font-weight-500 row c-gap-1">
-            <img class="ch-2" src="assets/icon/calendar_month_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt="Calender">
-            Aug 2024 - Jun 2025
-          </p>
-
-          <p>Certified upper secondary school engineer (Gymnasieingenjör)</p>
-        </div>
-
-        <!-- NTI High School Diploma -->
-        <div>
-          <h4>NTI Gymnasiet Uppsala</h4>
-
-          <!-- Time Span -->
-          <p class="font-weight-500 row c-gap-1">
-            <img class="ch-2" src="assets/icon/calendar_month_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt="Calender">
-            Aug 2021 - Jun 2024
-          </p>
-
-          <p class="m-bottom-0">High School Diploma in Information technology (Gymnasieexamen)</p>
-        </div>
-      </section>
-    </div>
-
-    <hr>
 
     <!-- Featured Projects -->
     <section id="featured-projects">

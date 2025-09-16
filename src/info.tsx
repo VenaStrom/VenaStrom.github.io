@@ -25,6 +25,12 @@ export const info: {
     dateSpan: string; // E.g. "Aug 2020 - Dec 2021" or "2020 - Present"
     description: string | ReactNode;
   }[];
+  education: {
+    seat: string;
+    degree: string;
+    dateSpan: string; // E.g. "Aug 2020 - Dec 2021" or "2020 - Present"
+    description: string | ReactNode | null;
+  }[];
 } = {
   name: "Vena",
   surname: "Ström",
@@ -80,8 +86,7 @@ export const info: {
       position: "Software Developer Intern",
       dateSpan: "10 weeks (Feb 2025 - Apr 2025)",
       description: <>
-        During my 10 weeks at <a href="https://sustainable-action.org/" target="_blank">SAF</a>
-        I worked on the tool <a href="https://verktyg.koordineradklimatomställning.se/" target="_blank">Eco-Planner</a>.
+        During my 10 weeks at <a href="https://sustainable-action.org/" target="_blank">SAF</a> I worked on the tool <a href="https://verktyg.koordineradklimatomställning.se/" target="_blank">Eco-Planner</a>.
         I was solely responsible for the internationalization and translation of the entire app using <a href="https://www.i18next.com/" target="_blank">i18next</a>.
         Work was also done to improve the automated testing of the app using <a href="https://playwright.dev/" target="_blank">Playwright</a>.
       </>,
@@ -118,6 +123,28 @@ export const info: {
         If you are selected to the program you attend a workshop/course in Stockholm about public speaking and presentation skills.
         My years in the program were great fun and I got to meet a lot of new people.
       </>,
+    },
+  ],
+  education: [
+    {
+      seat: "Uppsala University",
+      degree: "Bachelor's Program in Information Systems - Systems Development",
+      dateSpan: "Aug 2025 - Jun 2028",
+      description: <>
+        About the program <a href="https://www.uu.se/utbildning/program/kandidatprogram-systemvetenskap-systemutveckling" target="_blank">uu.se</a>.
+      </>,
+    },
+    {
+      seat: "NTI Gymnasiet Uppsala",
+      degree: "Certified Upper Secondary School Engineer (Gymnasieingenjör)",
+      dateSpan: "Aug 2024 - Jun 2025",
+      description: null,
+    },
+    {
+      seat: "NTI Gymnasiet Uppsala",
+      degree: "High School Diploma in Information Technology (Gymnasieexamen)",
+      dateSpan: "Aug 2021 - Jun 2024",
+      description: null,
     },
   ],
 } as const;

@@ -1,4 +1,5 @@
 import Contact from "./components/contact.tsx";
+import Education from "./components/education.tsx";
 import Experience from "./components/experience.tsx";
 import Skills from "./components/skills.tsx";
 import { info } from "./info.tsx";
@@ -20,6 +21,12 @@ export default function App() {
       <hr />
 
       <Experience />
+
+      <hr />
+
+      <Education />
+
+      <hr />
     </main>
   </>);
 }
