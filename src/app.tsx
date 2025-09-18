@@ -10,9 +10,14 @@ declare const __BUILD_DATE__: string;
 
 export default function App() {
   return (<>
-    <main className="bg-white w-8/12 px-6 py-4 m-8 mb-20">
-      <h1>{info.fullName}</h1>
-      <h2>{info.title}</h2>
+    <main className="bg-white w-8/12 px-6 py-5 m-8 mb-20">
+      <header className="flex flex-col items-center">
+        <h1 className="text-4xl">
+          {info.fullName}
+        </h1>
+
+        <h2 className="italic">{info.title}</h2>
+      </header>
 
       <Contact />
 

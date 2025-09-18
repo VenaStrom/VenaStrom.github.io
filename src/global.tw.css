@@ -1,15 +1,35 @@
 @import "tailwindcss";
 
 @theme {
-  --color-beige: #ECE7E7;  
+  --color-beige: #ece7e7;
 }
 
 @layer base {
+  * {
+    font-family: "Noto Sans", sans-serif;
+  }
+
   a {
     @apply text-blue-600 hover:underline;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-bold;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-[650] text-lg;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply text-xl;
+  }
+  h2 {
+    @apply font-normal;
+  }
+  h4 {
+    @apply font-[600];
   }
 }
