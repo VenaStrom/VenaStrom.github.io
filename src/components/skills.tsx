@@ -5,11 +5,19 @@ export default function Skills({ className = "" }: { className?: string }) {
     <section className={className}>
       <h3>Skills</h3>
 
-      <ul className="flex flex-row flex-wrap gap-6">
-        {info.skills.map((skill, i) => (
-          <li key={`skill-${i}`}>{skill}</li>
-        ))}
-      </ul>
+      <div className="flex flex-col gap-y-5">
+        {Object.entries(info.skills).map(([category, skills], i) => (<div>
+          <h4 className="text-base">{category}</h4>
+          <ul key={`skill-category-${i}`} className="flex flex-row flex-wrap gap-x-6 gap-y-2">
+
+            {skills.map((skill, j) => (
+              <li key={`skill-${i}-${j}`} className="mr-2">
+                {skill}
+              </li>
+            ))}
+          </ul>
+        </div>))}
+      </div>
     </section>
   );
 }

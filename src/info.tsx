@@ -12,7 +12,8 @@ export const info: {
   emailLink: string;
   linkedinLink: string;
   githubLink: string;
-  skills: string[];
+  // Category: string[]
+  skills: Record<string, string[]>;
   experiences: {
     company: string;
     position: string;
@@ -58,34 +59,49 @@ export const info: {
   emailLink: "strom.vena+portfolio@gmail.com",
   linkedinLink: "https://www.linkedin.com/in/vena-ström-74b618332",
   githubLink: "https://github.com/VenaStrom",
-  skills: [
-    "JavaScript/TypeScript",
-    "React",
-    "Nextjs",
-    "Node.js",
-    "HTML & CSS",
-    "Tailwind CSS",
-    "Proxmox",
-    "Docker",
-    "SQL",
-    "Linux (server & desktop)",
-    "Prisma",
-    "C# (WPF)",
-    "Electron",
-    "Python",
-    "Playwright",
-    "Selenium",
-    "Git & GitHub",
-    "SCRUM (Agile)",
-    "Excel & Sheets",
-    "Adobe Photoshop",
-    "Autodesk Fusion 360",
-    "3D printing",
-    "Drivers' license class B",
-    "Computer hardware",
-    "Networking",
-    "mathjs",
-  ],
+  skills: {
+    "Web": [
+      "JavaScript/TypeScript",
+      "React",
+      "Nextjs",
+      "Tailwind CSS",
+      "HTML & CSS",
+    ],
+    "Testing": [
+      "Playwright",
+      "Selenium",
+    ],
+    "Backend": [
+      "Node.js",
+      "REST API",
+      "Express.js",
+      "SQL",
+      "Prisma",
+      "Docker",
+      "Proxmox",
+    ],
+    "Apps": [
+      "Electron",
+      "C# (WPF)",
+    ],
+    "OS & Tools": [
+      "Linux (server & desktop)",
+      "Windows",
+      "Git & GitHub",
+      "GitHub Workflows",
+      "Visual Studio Code",
+      "Excel & Sheets",
+      "Adobe Photoshop",
+      "Autodesk Fusion 360",
+    ],
+    "Other": [
+      "SCRUM (Agile)",
+      "3D printing",
+      "Drivers' license class B",
+      "Computer hardware",
+      "Networking",
+    ],
+  },
   experiences: [
     {
       company: "Sustainable Action Foundation",
