@@ -7,7 +7,7 @@ export default function Skills({ className = "" }: { className?: string }) {
 
       <ul>
         {info.skills.map((skill, i) => (
-          <li key={`skill-${i}`}>○ {skill}</li>
+          <li key={`skill-${i}`}>{skill}</li>
         ))}
       </ul>
     </section>
