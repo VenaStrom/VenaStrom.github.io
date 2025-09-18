@@ -11,6 +11,9 @@
 
   a {
     @apply text-blue-600 hover:underline;
+    &:visited {
+      @apply text-purple-600;
+    }
   }
 
   h1,
@@ -19,7 +22,7 @@
   h4,
   h5,
   h6 {
-    @apply font-[650] text-lg;
+    @apply font-[650] text-lg cursor-default;
   }
   h1,
   h2,
@@ -31,5 +34,9 @@
   }
   h4 {
     @apply font-[600];
+  }
+
+  main > hr {
+    @apply my-4;
   }
 }
