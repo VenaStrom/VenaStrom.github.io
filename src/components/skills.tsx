@@ -5,7 +5,7 @@ export default function Skills({ className = "" }: { className?: string }) {
     <section className={className}>
       <h3>Skills</h3>
 
-      <ul>
+      <ul className="flex flex-row flex-wrap gap-6">
         {info.skills.map((skill, i) => (
           <li key={`skill-${i}`}>{skill}</li>
         ))}

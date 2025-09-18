@@ -10,7 +10,7 @@ declare const __BUILD_DATE__: string;
 
 export default function App() {
   return (<>
-    <main className="bg-white w-8/12 px-6 py-5 m-8 mb-20">
+    <main className="bg-white w-11/12 md:w-8/12 px-6 py-5 m-8 mb-20">
       <header className="flex flex-col items-center">
         <h1 className="text-4xl">
           {info.fullName}
@@ -60,6 +60,6 @@ export default function App() {
       </section>
     </main>
 
-    <span className="text-black/60 p-2">Last updated {__BUILD_DATE__}</span>
+    <span className="text-black/60 p-2">© 2025 Vena Ström. Page last updated {__BUILD_DATE__}</span>
   </>);
 }

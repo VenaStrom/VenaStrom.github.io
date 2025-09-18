@@ -213,7 +213,7 @@ export const info: {
   ],
   aboutMe: {
     description: <>
-      I'm a full stack developer focused on creating user-friendly, maintainable systems, with over four years of experience with JavaScript/TypeScript.
+      I'm a full stack developer focused on creating user-friendly, maintainable systems, with over four years of experience with JavaScript/TypeScript and other technologies.
       I manage my own servers, mainly via Proxmox, and good ol' SSH.
       I also dabble in integrated systems.
       Right now I'm working in a group called <a href="https://www.astronomiskungdom.se/aurore/" target="_blank">AURORE</a>-3 to build a small probe that will be sent to <strong>actual space</strong> Q1 2026!

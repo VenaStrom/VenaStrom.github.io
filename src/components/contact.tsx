@@ -5,7 +5,7 @@ export default function Contact({ className = "" }: { className?: string }) {
     <section className={className}>
       <h3>Contact</h3>
 
-      <div className="flex flex-row *:flex-1 gap-x-10">
+      <div className="flex flex-row flex-wrap *:flex-1 gap-x-10 gap-y-3">
         <div className="flex flex-col *:flex *:flex-row *:justify-between">
           <span>
             <p>Phone</p>
