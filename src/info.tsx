@@ -31,6 +31,16 @@ export const info: {
     dateSpan: string; // E.g. "Aug 2020 - Dec 2021" or "2020 - Present"
     description: string | ReactNode | null;
   }[];
+  projects: {
+    name: string;
+    dateSpan: string; // E.g. "Aug 2020 - Dec 2021" or "2020 - Present"
+    description: string | ReactNode;
+    stack: (string | ReactNode)[];
+    sourceCodeLink: ReactNode;
+    visitLink: ReactNode | null;
+    installLink: ReactNode | null;
+    images: ReactNode;
+  }[];
 } = {
   name: "Vena",
   surname: "Ström",
@@ -49,6 +59,7 @@ export const info: {
     "Nextjs",
     "Node.js",
     "HTML & CSS",
+    "Tailwind CSS",
     "Proxmox",
     "Docker",
     "SQL",
@@ -138,13 +149,61 @@ export const info: {
       seat: "NTI Gymnasiet Uppsala",
       degree: "Certified Upper Secondary School Engineer (Gymnasieingenjör)",
       dateSpan: "Aug 2024 - Jun 2025",
-      description: null,
+      description: <>
+        About the program <a href="https://ntigymnasiet.se/uppsala/program/gymnasieingenjorsprogrammet/" target="_blank">ntigymnasiet.se</a>
+      </>,
     },
     {
       seat: "NTI Gymnasiet Uppsala",
       degree: "High School Diploma in Information Technology (Gymnasieexamen)",
       dateSpan: "Aug 2021 - Jun 2024",
       description: null,
+    },
+  ],
+  projects: [
+    {
+      name: "Stockholm Trekkers Playlist Maker",
+      dateSpan: "Aug 2024 - Present",
+      description: <>
+        An Electron app used by the organization <a href="https://www.stockholmtrekkers.se" target="_blank">Stockholm Trekkers</a> to compile playlists that are played at our
+        monthly events.
+        The app focuses on user experience. I made the entire program myself while constantly
+        taking feedback to improve the product. I still maintain and update the app.
+      </>,
+      stack: ["Electron", "Node.js", "JavaScript", "HTML & CSS", "Git & GitHub", "GitHub Workflows"],
+      images: <>
+        <img src="assets/screenshots/playlist-editor.png" alt="playlist editor" />
+        <img src="assets/screenshots/playlist-editor-exporting.png" alt="playlist editor while exporting a project" />
+      </>,
+      sourceCodeLink: <a href="https://github.com/VenaStrom/Stockholm-Trekkers-Playlist-Maker" target="_blank">GitHub</a>,
+      visitLink: null,
+      installLink: <a href="https://github.com/VenaStrom/Stockholm-Trekkers-Playlist-Maker/releases" target="_blank">Releases</a>,
+    },
+    {
+      name: "Vena's Radio Player",
+      dateSpan: "Aug 2024 - Present",
+      description: <>
+        A mobile focused website that I made to replace the official Swedish National Radio app since it had
+        bugs I couldn't stand. I use it daily. It uses their official --open-- <a href="https://sverigesradio.se/oppetapi" target="_blank">API</a>. I still maintain and
+        update the site.
+      </>,
+      stack: [
+        "Nextjs",
+        "TypeScript",
+        "React",
+        "Tailwind CSS",
+        "Web API",
+        "REST API",
+        "Prisma",
+        "Zustand",
+      ],
+      images: <>
+        <img src="https://github.com/VenaStrom/Venas-Radio/raw/main/screenshots/home-page.png" alt="Vena's radio home page" />
+        <img src="https://github.com/VenaStrom/Venas-Radio/raw/main/screenshots/feed-page.png" alt="Vena's radio feed page" />
+      </>,
+      sourceCodeLink: <a href="https://github.com/VenaStrom/Venas-Radio" target="_blank">GitHub</a>,
+      visitLink: <a href="https://vr-radio.tailad6f63.ts.net/" target="_blank">live site</a>,
+      installLink: null,
     },
   ],
 } as const;

@@ -1,6 +1,7 @@
 import Contact from "./components/contact.tsx";
 import Education from "./components/education.tsx";
 import Experience from "./components/experience.tsx";
+import Projects from "./components/projects.tsx";
 import Skills from "./components/skills.tsx";
 import { info } from "./info.tsx";
 
@@ -27,6 +28,16 @@ export default function App() {
       <Education />
 
       <hr />
+
+      <Projects />
+
+      <hr />
+
+      {/* References */}
+      <section>
+        <h3>References</h3>
+        <p>References are available upon request.</p>
+      </section>
     </main>
   </>);
 }
