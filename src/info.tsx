@@ -177,8 +177,8 @@ export const info: {
       </>,
       stack: ["Electron", "Node.js", "JavaScript", "HTML & CSS", "Git & GitHub", "GitHub Workflows"],
       images: <>
-        <img src="assets/screenshots/playlist-editor.png" alt="playlist editor" />
-        <img src="assets/screenshots/playlist-editor-exporting.png" alt="playlist editor while exporting a project" />
+        <img className="w-1/3" src="screenshots/playlist-editor.png" alt="playlist editor" />
+        <img className="w-1/3" src="screenshots/playlist-editor-exporting.png" alt="playlist editor while exporting a project" />
       </>,
       sourceCodeLink: <a href="https://github.com/VenaStrom/Stockholm-Trekkers-Playlist-Maker" target="_blank">GitHub</a>,
       visitLink: null,
@@ -189,7 +189,7 @@ export const info: {
       dateSpan: "Aug 2024 - Present",
       description: <>
         A mobile focused website that I made to replace the official Swedish National Radio app since it had
-        bugs I couldn't stand. I use it daily. It uses their official --open-- <a href="https://sverigesradio.se/oppetapi" target="_blank">API</a>. I still maintain and
+        bugs I couldn't stand. I use it daily. It uses their official —open— <a href="https://sverigesradio.se/oppetapi" target="_blank">API</a>. I still maintain and
         update the site.
       </>,
       stack: [
@@ -203,8 +203,8 @@ export const info: {
         "Zustand",
       ],
       images: <>
-        <img src="https://github.com/VenaStrom/Venas-Radio/raw/main/screenshots/home-page.png" alt="Vena's radio home page" />
-        <img src="https://github.com/VenaStrom/Venas-Radio/raw/main/screenshots/feed-page.png" alt="Vena's radio feed page" />
+        <img className="w-1/5" src="https://github.com/VenaStrom/Venas-Radio/raw/main/screenshots/home-page.png" alt="Vena's radio home page" />
+        <img className="w-1/5" src="https://github.com/VenaStrom/Venas-Radio/raw/main/screenshots/feed-page.png" alt="Vena's radio feed page" />
       </>,
       sourceCodeLink: <a href="https://github.com/VenaStrom/Venas-Radio" target="_blank">GitHub</a>,
       visitLink: <a href="https://vr-radio.tailad6f63.ts.net/" target="_blank">live site</a>,

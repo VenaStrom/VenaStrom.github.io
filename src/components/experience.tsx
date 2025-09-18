@@ -8,7 +8,7 @@ export default function Experience({ className = "" }: { className?: string }) {
       <ul>
         {info.experiences.map((exp, i) =>
           <li key={`experience-${i}`}>
-            <strong>{exp.position}</strong>, {exp.company} <em>({exp.dateSpan})</em>
+            <strong>{exp.position}</strong>, {exp.company} <i>({exp.dateSpan})</i>
 
             <p>{exp.description}</p>
           </li>

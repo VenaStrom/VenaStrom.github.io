@@ -8,7 +8,7 @@ export default function Volunteering({ className = "" }: { className?: string })
       <ul>
         {info.volunteering.map((vol, i) => (
           <li key={`volunteering-${i}`}>
-            <strong>{vol.organization}</strong>, {vol.role} <em>{vol.dateSpan}</em>
+            <strong>{vol.organization}</strong>, {vol.role} <i>{vol.dateSpan}</i>
 
             <p>{vol.description}</p>
           </li>
