@@ -217,7 +217,7 @@ export const info: {
       I manage my own servers, mainly via Proxmox, and good ol' SSH.
       I also dabble in integrated systems.
       Right now I'm working in a group called <a href="https://www.astronomiskungdom.se/aurore/" target="_blank">AURORE</a>-3 to build a small probe that will be sent to <strong>actual space</strong> Q1 2026!
-      <br /><br />
+      <br />
       Generally I code to achieve my creative goals and to solve problems in my daily life so if that requires learning a new technology I'm all for it!
     </>,
     languages: ["Swedish - Fluent", "English - Fluent"],

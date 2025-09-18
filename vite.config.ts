@@ -14,4 +14,7 @@ export default defineConfig({
     outDir: "../dist",
     emptyOutDir: true,
   },
+  define: {
+    "__BUILD_DATE__": JSON.stringify(new Date().toLocaleDateString()),
+  },
 });

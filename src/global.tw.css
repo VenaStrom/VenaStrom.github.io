@@ -1,7 +1,15 @@
 @import "tailwindcss";
 
+@theme {
+  --color-beige: #ECE7E7;  
+}
+
 @layer base {
   a {
     @apply text-blue-600 hover:underline;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
   }
 }

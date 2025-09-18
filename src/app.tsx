@@ -6,14 +6,14 @@ import Projects from "./components/projects.tsx";
 import Skills from "./components/skills.tsx";
 import { info } from "./info.tsx";
 
+declare const __BUILD_DATE__: string;
+
 export default function App() {
   return (<>
-    <header>
+    <main className="bg-white w-8/12 px-6 py-4 m-8 mb-20">
       <h1>{info.fullName}</h1>
       <h2>{info.title}</h2>
-    </header>
 
-    <main>
       <Contact />
 
       <hr />
@@ -54,5 +54,7 @@ export default function App() {
         <p>Information Technology Specialist in Networking via CERTIPORT</p>
       </section>
     </main>
+
+    <span className="text-black/60 p-2">Last updated {__BUILD_DATE__}</span>
   </>);
 }
