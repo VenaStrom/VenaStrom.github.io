@@ -170,17 +170,19 @@ export const info: {
     },
     {
       seat: "NTI Gymnasiet Uppsala",
-      degree: "Certified Upper Secondary School Engineer (Gymnasieingenjör)",
+      degree: "Gymnasieingenjör / Certified Upper Secondary School Engineer",
       dateSpan: "Aug 2024 - Jun 2025",
       description: <>
-        About the program <a href="https://ntigymnasiet.se/uppsala/program/gymnasieingenjorsprogrammet/" target="_blank">ntigymnasiet.se</a>
+        About the program <a href="https://ntigymnasiet.se/uppsala/program/gymnasieingenjorsprogrammet/" target="_blank">ntigymnasiet.se</a>.
       </>,
     },
     {
       seat: "NTI Gymnasiet Uppsala",
-      degree: "High School Diploma in Information Technology (Gymnasieexamen)",
+      degree: "Gymnasieexamen / High School Diploma in Information Technology",
       dateSpan: "Aug 2021 - Jun 2024",
-      description: null,
+      description: <>
+        About the program <a href="https://ntigymnasiet.se/uppsala/program/teknikprogrammet/informations-och-medieteknik/" target="_blank">ntigymnasiet.se</a>.
+      </>,
     },
   ],
   projects: [
