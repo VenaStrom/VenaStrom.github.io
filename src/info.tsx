@@ -5,11 +5,12 @@ export const info: {
   surname: string;
   fullName: string;
   title: string;
-  subtitle?: string;
-  phone: string;
-  phoneLink: string;
-  email: string;
-  emailLink: string;
+  subtitle: string;
+  area: string | null;
+  phone: string | null;
+  phoneLink: string | null;
+  email: string | null;
+  emailLink: string | null;
   linkedinLink: string;
   githubLink: string;
   // Category: string[]
@@ -53,8 +54,9 @@ export const info: {
   fullName: "Vena Ström",
   title: "Software Developer",
   subtitle: "Gymnasieingenjör",
-  phone: "072-327 42 81",
-  phoneLink: "+46723274281",
+  area: "Uppsala",
+  phone: null,
+  phoneLink: null,
   email: "strom.vena@gmail.com",
   emailLink: "strom.vena+portfolio@gmail.com",
   linkedinLink: "https://www.linkedin.com/in/vena-ström-74b618332",
