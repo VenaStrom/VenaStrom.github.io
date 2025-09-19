@@ -7,6 +7,7 @@
 @layer base {
   * {
     font-family: "Noto Sans", sans-serif;
+    @apply font-light;
   }
 
   a {
@@ -32,11 +33,24 @@
   h2 {
     @apply font-normal;
   }
+  h3 {
+    @apply mb-1;
+  }
   h4 {
-    @apply font-[600];
+    @apply font-[500] text-lg;
+    & > * {
+      @apply font-[500] text-lg;
+    }
   }
 
   main > hr {
-    @apply my-4;
+    @apply my-4 mt-6;
+  }
+  main > section {
+    @apply flex flex-col gap-y-1;
+
+    & > ul {
+      @apply flex flex-col gap-y-5;
+    }
   }
 }

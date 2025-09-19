@@ -14,11 +14,11 @@ export default function Contact({ className = "" }: { className?: string }) {
             </span>
           </span>
 
-          {info.area &&
+          {info.location &&
             <span>
               Location
               <span>
-                {info.area}
+                {info.location}
               </span>
             </span>
           }

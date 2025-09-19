@@ -7,7 +7,7 @@ export default function Skills({ className = "" }: { className?: string }) {
 
       <div className="flex flex-col gap-y-5">
         {Object.entries(info.skills).map(([category, skills], i) => (<div>
-          <h4 className="text-base">{category}</h4>
+          <h4>{category}</h4>
           <ul key={`skill-category-${i}`} className="flex flex-row flex-wrap gap-x-6 gap-y-2">
 
             {skills.map((skill, j) => (

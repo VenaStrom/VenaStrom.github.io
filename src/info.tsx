@@ -6,7 +6,7 @@ export const info: {
   fullName: string;
   title: string;
   subtitle: string;
-  area: string | null;
+  location: string | null;
   phone: string | null;
   phoneLink: string | null;
   email: string | null;
@@ -54,7 +54,7 @@ export const info: {
   fullName: "Vena Ström",
   title: "Software Developer",
   subtitle: "Gymnasieingenjör",
-  area: "Uppsala",
+  location: "Uppsala",
   phone: null,
   phoneLink: null,
   email: "strom.vena@gmail.com",
@@ -108,7 +108,7 @@ export const info: {
     {
       company: "Sustainable Action Foundation",
       position: "Software Developer",
-      dateSpan: "Ongoing (since Jul 2025)",
+      dateSpan: "Jul 2025 - Present",
       description: <>
         After my internship I continued to work at <a href="https://sustainable-action.org/" target="_blank">SAF</a> during the summer and then part-time during my studies.
         I have mainly worked on the recipe system for the tool <a href="https://verktyg.koordineradklimatomställning.se/" target="_blank">Eco-Planner</a>.
@@ -118,10 +118,10 @@ export const info: {
     {
       company: "Sustainable Action Foundation",
       position: "Software Developer Intern",
-      dateSpan: "10 weeks (Feb 2025 - Apr 2025)",
+      dateSpan: "Feb 2025 - Apr 2025 (10 weeks)",
       description: <>
         During my 10 weeks at <a href="https://sustainable-action.org/" target="_blank">SAF</a> I worked on the tool <a href="https://verktyg.koordineradklimatomställning.se/" target="_blank">Eco-Planner</a>.
-        I was solely responsible for the internationalization and translation of the entire app using <a href="https://www.i18next.com/" target="_blank">i18next</a>.
+        I was responsible for the internationalization and translation of the entire app using <a href="https://www.i18next.com/" target="_blank">i18next</a>.
         Work was also done to improve the automated testing of the app using <a href="https://playwright.dev/" target="_blank">Playwright</a>.
       </>,
     },
