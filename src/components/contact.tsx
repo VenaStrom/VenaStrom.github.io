@@ -40,12 +40,12 @@ export default function Contact({ className = "" }: { className?: string }) {
 
         <div className="flex flex-row justify-evenly items-center gap-x-4 *:flex *:flex-row *:gap-x-1 *:h-fit *:items-center">
           <a href={info.linkedinLink} target="_blank">
-            <img src="/icon/icons8-linkedin-24.png" alt="LinkedIn" />
+            <img src="/public/icon/icons8-linkedin-24.png" alt="LinkedIn" />
             LinkedIn
           </a>
 
           <a href={info.githubLink} target="_blank">
-            <img src="/icon/icons8-github-24.png" alt="GitHub" />
+            <img src="/public/icon/icons8-github-24.png" alt="GitHub" />
             GitHub
           </a>
         </div>
