@@ -12,8 +12,8 @@ export default defineConfig({
   publicDir: "../public",
   build: {
     outDir: "../dist",
-    assetsDir: "public",
     emptyOutDir: true,
+    copyPublicDir: false,
   },
   define: {
     "__BUILD_DATE__": JSON.stringify(new Date().toLocaleDateString()),
