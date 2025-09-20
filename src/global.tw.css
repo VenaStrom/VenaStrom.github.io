@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --color-beige: #ece7e7;
+}
+
+@layer base {
+  * {
+    font-family: "Noto Sans", sans-serif;
+    @apply font-light;
+  }
+
+  a {
+    @apply text-blue-600 hover:underline;
+    &:visited {
+      @apply text-purple-600;
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-[650] text-lg cursor-default;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply text-xl;
+  }
+  h2 {
+    @apply font-normal;
+  }
+  h3 {
+    @apply mb-1;
+  }
+  h4 {
+    @apply font-[500] text-lg;
+    & > * {
+      @apply font-[500] text-lg;
+    }
+  }
+
+  main > hr {
+    @apply my-4 mt-7;
+  }
+  main > section {
+    @apply flex flex-col gap-y-1;
+
+    & > ul {
+      @apply flex flex-col gap-y-5;
+    }
+  }
+}
