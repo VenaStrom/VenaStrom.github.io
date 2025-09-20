@@ -15,6 +15,6 @@ export default defineConfig({
     emptyOutDir: true,
   },
   define: {
-    "__BUILD_DATE__": JSON.stringify(new Date().toLocaleDateString()),
+    "__BUILD_DATE__": JSON.stringify(new Date().toLocaleDateString("en-SE", { year: "numeric", month: "2-digit", day: "2-digit" })),
   },
 }) satisfies UserConfig;
