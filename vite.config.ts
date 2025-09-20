@@ -13,7 +13,6 @@ export default defineConfig({
   build: {
     outDir: "../dist",
     emptyOutDir: true,
-    copyPublicDir: false,
   },
   define: {
     "__BUILD_DATE__": JSON.stringify(new Date().toLocaleDateString()),
