@@ -27,7 +27,7 @@ export default function Projects({ className = "" }: { className?: string }) {
             {/* Stack */}
             <div>
               <span className="font-normal flex flex-row items-center gap-x-0.5">
-                <img className="h-5" src="/public/icon/icons8-wrench-24.png" alt="Wrench" />
+                <img className="h-5" src="/icon/icons8-wrench-24.png" alt="Wrench" />
                 Stack
               </span>
 
@@ -43,20 +43,20 @@ export default function Projects({ className = "" }: { className?: string }) {
             {/* Links */}
             <div className="flex flex-row justify-evenly flex-wrap gap-x-4 mt-2">
               <span className="flex flex-row items-center gap-x-0.5">
-                <img className="h-5" src="/public/icon/icons8-github-24.png" alt="GitHub logo" />
+                <img className="h-5" src="/icon/icons8-github-24.png" alt="GitHub logo" />
                 {project.sourceCodeLink}
               </span>
 
               {project.visitLink &&
                 <span className="flex flex-row items-center gap-x-0.5">
-                  <img className="h-5" src="/public/icon/icons8-globe-24.png" alt="Globe icon" />
+                  <img className="h-5" src="/icon/icons8-globe-24.png" alt="Globe icon" />
                   {project.visitLink}
                 </span>
               }
 
               {project.installLink &&
                 <span className="flex flex-row items-center gap-x-0.5">
-                  <img className="h-5" src="/public/icon/icons8-download-24.png" alt="Download icon" />
+                  <img className="h-5" src="/icon/icons8-download-24.png" alt="Download icon" />
                   {project.installLink}
                 </span>
               }
