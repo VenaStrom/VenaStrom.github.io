@@ -44,7 +44,7 @@ export const info: {
     images: ReactNode;
   }[];
   aboutMe: {
-    description: string | ReactNode;
+    description: (string | ReactNode)[];
     languages: (string | ReactNode)[];
     randomThings: (string | ReactNode)[];
   };
@@ -232,18 +232,24 @@ export const info: {
     },
   ],
   aboutMe: {
-    description: <>
-      I'm a full stack developer focused on creating user-friendly, maintainable systems, with over four years of experience with JavaScript/TypeScript and other technologies.
-      I manage my own servers, mainly via Proxmox, and good ol' SSH.
-      I also dabble in integrated systems.
-      Right now I'm working in a group called <a href="https://www.astronomiskungdom.se/aurore/" target="_blank">AURORE</a>-3 to build a small probe that will be sent to <strong>actual space</strong> Q1 2026!
-      <br />
-      Generally I code to achieve my creative goals and to solve problems in my daily life so if that requires learning a new technology I'm all for it!
-    </>,
+    description: [
+      <>
+        I'm a full stack developer focused on creating user-friendly, maintainable systems, with over four years of experience with JavaScript/TypeScript and other technologies.
+      </>,
+      <>
+        I manage my own servers, mainly via Proxmox, and good ol' SSH.
+      </>,
+      <>
+        I also dabble in integrated systems. Right now I'm working in a group called <a href="https://www.astronomiskungdom.se/aurore/" target="_blank">AURORE</a>-3 to build a small probe that will be sent to <strong>actual space</strong> Q1 2026!
+      </>,
+      <>
+        Generally I code to achieve my creative goals and to solve problems in my daily life so if that requires learning a new technology I'm all for it!
+      </>,
+    ],
     languages: ["Swedish - Fluent", "English - Fluent"],
     randomThings: [
       "I love LEGO, especially LEGO Technic.",
-      "I enjoy cykling.",
+      "I enjoy cycling.",
       "I'm proficient at solving Rubik's cubes",
       "I love hotkeys! I cannot live without them.",
       "I run Pop!_OS on my laptop which is an Ubuntu-based Linux distro with built in NVIDIA GPU support. Although I'm not a fan of GNOME so I use KDE Plasma as my desktop environment.",
