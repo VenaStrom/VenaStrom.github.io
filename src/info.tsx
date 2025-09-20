@@ -227,7 +227,7 @@ export const info: {
         <img className="w-2/5 sm:w-2/7" src="/public/screenshots/feed-page.png" alt="Vena's radio feed page" />
       </>,
       sourceCodeLink: <a href="https://github.com/VenaStrom/Venas-Radio" target="_blank">GitHub</a>,
-      visitLink: <a href="https://vr-radio.tailad6f63.ts.net/" target="_blank">live site</a>,
+      visitLink: <a href="https://vr-radio.tailad6f63.ts.net/" target="_blank">Live site</a>,
       installLink: null,
     },
   ],

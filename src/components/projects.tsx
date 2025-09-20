@@ -8,7 +8,7 @@ export default function Projects({ className = "" }: { className?: string }) {
 
       <ul>
         {info.projects.map((project, i) => <Fragment key={`project-fragment-${i}`}>
-          <li key={`project-${i}`} className="flex flex-col gap-y-1">
+          <li key={`project-${i}`} className="flex flex-col gap-y-2">
 
             {/* Header */}
             <div className="flex flex-row flex-wrap gap-x-4 justify-between">
@@ -41,7 +41,7 @@ export default function Projects({ className = "" }: { className?: string }) {
             </div>
 
             {/* Links */}
-            <div className="flex flex-row justify-evenly">
+            <div className="flex flex-row justify-evenly flex-wrap gap-x-4 mt-2">
               <span className="flex flex-row items-center gap-x-0.5">
                 <img className="h-5" src="/public/icon/icons8-github-24.png" alt="GitHub logo" />
                 {project.sourceCodeLink}
@@ -53,21 +53,24 @@ export default function Projects({ className = "" }: { className?: string }) {
                   {project.visitLink}
                 </span>
               }
+
+              {project.installLink &&
+                <span className="flex flex-row items-center gap-x-0.5">
+                  <img className="h-5" src="/public/icon/icons8-download-24.png" alt="Download icon" />
+                  {project.installLink}
+                </span>
+              }
             </div>
           </li>
 
-          {i < project.stack.length - 1 &&
-            <hr key={`project-${i}-hr`} className="w-full border-gray-400/80 border-[0.5] mt-2" />
-          }
+          <hr key={`project-${i}-hr`} className="w-full border-gray-400/80 border-[0.5] mt-2" />
         </Fragment>
         )}
 
         <li>
           <h4>More Projects</h4>
 
-          <p>
-            All my projects can be found on <a href="https://github.com/VenaStrom" target="_blank">GitHub</a>.
-          </p>
+          <p>All my projects can be found on <a href="https://github.com/VenaStrom" target="_blank">GitHub</a></p>
         </li>
       </ul>
     </section>

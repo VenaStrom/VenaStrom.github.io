@@ -44,7 +44,7 @@
   }
 
   main > hr {
-    @apply my-4 mt-6;
+    @apply my-4 mt-7;
   }
   main > section {
     @apply flex flex-col gap-y-1;
