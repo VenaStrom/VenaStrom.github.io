@@ -27,7 +27,7 @@ export default function Projects({ className = "" }: { className?: string }) {
             {/* Stack */}
             <div>
               <span className="font-normal flex flex-row items-center gap-x-0.5">
-                <img className="h-5" src="/icon/icons8-wrench-24.png" alt="Wrench" />
+                <img className="h-5" src="/icon/icons8-wrench-24.png" height={24} width={24} alt="Wrench" />
                 Stack
               </span>
 
