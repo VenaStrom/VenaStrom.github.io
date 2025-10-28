@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "yarn webp && yarn vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "webp": "node --env-file=./.env scripts/webp-converter.ts"
   },
