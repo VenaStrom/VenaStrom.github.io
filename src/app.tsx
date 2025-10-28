@@ -12,7 +12,7 @@ export default function App() {
   return (<>
     <main className="bg-white w-11/12 md:w-8/12 px-6 py-5 m-8 mb-20">
       <header className="flex flex-col items-center">
-        <h1 className="text-4xl">
+        <h1 className="text-4xl h-9">
           {info.fullName}
         </h1>
 
