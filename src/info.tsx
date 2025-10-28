@@ -197,8 +197,8 @@ export const info: {
       </>,
       stack: ["Electron", "Node.js", "JavaScript", "HTML & CSS", "Git & GitHub", "GitHub Workflows"],
       images: <>
-        <img className="w-full sm:w-2/5" height={577} width={339} loading="lazy" src="/screenshots/playlist-editor.webp"  alt="playlist editor" />
-        <img className="w-full sm:w-2/5" height={577} width={339} loading="lazy" src="/screenshots/playlist-editor-exporting.webp" alt="playlist editor while exporting a project" />
+        <img className="w-full sm:w-2/5" height={400} width={859} loading="lazy" src="/screenshots/playlist-editor.webp"  alt="playlist editor" />
+        <img className="w-full sm:w-2/5" height={400} width={859} loading="lazy" src="/screenshots/playlist-editor-exporting.webp" alt="playlist editor while exporting a project" />
       </>,
       sourceCodeLink: <a href="https://github.com/VenaStrom/Stockholm-Trekkers-Playlist-Maker" target="_blank">GitHub</a>,
       visitLink: null,
@@ -223,8 +223,8 @@ export const info: {
         "Zustand",
       ],
       images: <>
-        <img className="w-2/5 sm:w-2/7" height={495} width={231} loading="lazy" src="/screenshots/home-page.webp" alt="Vena's radio home page" />
-        <img className="w-2/5 sm:w-2/7" height={495} width={231} loading="lazy" src="/screenshots/feed-page.webp" alt="Vena's radio feed page" />
+        <img className="w-2/5 sm:w-2/7" height={600} width={1020} loading="lazy" src="/screenshots/home-page.webp" alt="Vena's radio home page" />
+        <img className="w-2/5 sm:w-2/7" height={600} width={1020} loading="lazy" src="/screenshots/feed-page.webp" alt="Vena's radio feed page" />
       </>,
       sourceCodeLink: <a href="https://github.com/VenaStrom/Venas-Radio" target="_blank">GitHub</a>,
       visitLink: <a href="https://vr-radio.tailad6f63.ts.net/" target="_blank">Live site</a>,
