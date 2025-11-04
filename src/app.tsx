@@ -5,6 +5,7 @@ import AboutMe from "./components/about-me.tsx";
 import Projects from "./components/projects.tsx";
 import Skills from "./components/skills.tsx";
 import { info } from "./info.tsx";
+import Volunteering from "./components/volunteering.tsx";
 
 declare const __BUILD_DATE__: string;
 
@@ -29,6 +30,10 @@ export default function App() {
 
       <Experience />
 
+      <hr />
+
+      <Volunteering />
+      
       <hr />
 
       <Education />
