@@ -197,7 +197,7 @@ export const info: {
       </>,
       stack: ["Electron", "Node.js", "JavaScript", "HTML & CSS", "Git & GitHub", "GitHub Workflows"],
       images: <>
-        <img className="w-full sm:w-2/5" height={400} width={859} loading="lazy" src="/screenshots/playlist-editor.webp"  alt="playlist editor" />
+        <img className="w-full sm:w-2/5" height={400} width={859} loading="lazy" src="/screenshots/playlist-editor.webp" alt="playlist editor" />
         <img className="w-full sm:w-2/5" height={400} width={859} loading="lazy" src="/screenshots/playlist-editor-exporting.webp" alt="playlist editor while exporting a project" />
       </>,
       sourceCodeLink: <a href="https://github.com/VenaStrom/Stockholm-Trekkers-Playlist-Maker" target="_blank">GitHub</a>,
@@ -219,8 +219,6 @@ export const info: {
         "Tailwind CSS",
         "Web API",
         "REST API",
-        "Prisma",
-        "Zustand",
       ],
       images: <>
         <img className="w-2/5 sm:w-2/7" height={600} width={1020} loading="lazy" src="/screenshots/home-page.webp" alt="Vena's radio home page" />
@@ -229,6 +227,27 @@ export const info: {
       sourceCodeLink: <a href="https://github.com/VenaStrom/Venas-Radio" target="_blank">GitHub</a>,
       visitLink: <a href="https://vr-radio.tailad6f63.ts.net/" target="_blank">Live site</a>,
       installLink: null,
+    },
+    {
+      name: "TETRIS#",
+      dateSpan: "Nov 2025",
+      description: <>
+        TETRIS# <i>(tetris sharp)</i>, a console based Tetris clone with rogue like elements like shopping power-ups and de-buffs. Features single and multiplayer modes.
+      </>,
+      stack: [
+        "C#",
+        ".NET",
+        "ANSI escape codes",
+        "Custom text based rendering engines",
+        "Git & GitHub",
+      ],
+      images: <>
+        <img className="w-full sm:w-2/5" height={302} width={494} loading="lazy" src="/screenshots/singleplayer-playing.png" alt="Tetris# one player playing" />
+        <img className="w-full sm:w-2/5" height={302} width={494} loading="lazy" src="/screenshots/singleplayer-shopping.png" alt="Tetris# one player shopping" />
+      </>,
+      sourceCodeLink: <a href="https://github.com/VenaStrom/cs-tetris-p-42" target="_blank">GitHub</a>,
+      visitLink: null,
+      installLink: <a href="https://github.com/VenaStrom/cs-tetris-p-42#readme" target="_blank">Install</a>,
     },
   ],
   aboutMe: {

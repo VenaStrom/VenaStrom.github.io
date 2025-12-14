@@ -43,20 +43,20 @@ export default function Projects({ className = "" }: { className?: string }) {
             {/* Links */}
             <div className="flex flex-row justify-evenly flex-wrap gap-x-4 mt-2">
               <span className="flex flex-row items-center gap-x-0.5">
-                <img className="h-5" src="/icon/icons8-github-24.png" height={24} width={24} alt="GitHub logo" />
+                <img className="size-5" src="/icon/icons8-github-24.png" height={24} width={24} alt="GitHub logo" />
                 {project.sourceCodeLink}
               </span>
 
               {project.visitLink &&
                 <span className="flex flex-row items-center gap-x-0.5">
-                  <img className="h-5" src="/icon/icons8-globe-24.png" height={24} width={24} alt="Globe icon" />
+                  <img className="size-5" src="/icon/icons8-globe-24.png" height={24} width={24} alt="Globe icon" />
                   {project.visitLink}
                 </span>
               }
 
               {project.installLink &&
                 <span className="flex flex-row items-center gap-x-0.5">
-                  <img className="h-5" src="/icon/icons8-download-24.png" height={24} width={24} alt="Download icon" />
+                  <img className="size-5" src="/icon/icons8-download-24.png" height={24} width={24} alt="Download icon" />
                   {project.installLink}
                 </span>
               }
