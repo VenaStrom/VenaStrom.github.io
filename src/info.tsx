@@ -59,7 +59,7 @@ export const info: {
   phoneLink: null,
   email: "strom.vena@gmail.com",
   emailLink: "strom.vena+portfolio@gmail.com",
-  linkedinLink: "https://www.linkedin.com/in/vena-ström-74b618332",
+  linkedinLink: "https://www.linkedin.com/in/vena-ström",
   githubLink: "https://github.com/VenaStrom",
   skills: {
     "Web": [
