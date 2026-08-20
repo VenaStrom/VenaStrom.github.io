@@ -112,7 +112,7 @@ export const info: {
       position: "Software Developer",
       dateSpan: "Jul 2025 - Present",
       description: <>
-        After my internship I continued to work at <a href="https://sustainable-action.org/" target="_blank">SAF</a> during the summer and then part-time during my studies.
+        After my internship I continued to work at <a href="https://sustainable-action.ngo/" target="_blank">SAF</a> during the summer and then part-time during my studies.
         I have mainly worked on the recipe system for the tool <a href="https://verktyg.koordineradklimatomställning.se/" target="_blank">Eco-Planner</a>.
         It leverages mathjs and a custom parser to allow users to apply and/or create convenient forumlas to inherit data from various data sources to streamline data entry and analysis.
       </>,
@@ -122,7 +122,7 @@ export const info: {
       position: "Software Developer Intern",
       dateSpan: "Feb 2025 - Apr 2025 (10 weeks)",
       description: <>
-        During my 10 weeks at <a href="https://sustainable-action.org/" target="_blank">SAF</a> I worked on the tool <a href="https://verktyg.koordineradklimatomställning.se/" target="_blank">Eco-Planner</a>.
+        During my 10 weeks at <a href="https://sustainable-action.ngo/" target="_blank">SAF</a> I worked on the tool <a href="https://verktyg.koordineradklimatomställning.se/" target="_blank">Eco-Planner</a>.
         I was responsible for the internationalization and translation of the entire app using <a href="https://www.i18next.com/" target="_blank">i18next</a>.
         Work was also done to improve the automated testing of the app using <a href="https://playwright.dev/" target="_blank">Playwright</a>.
       </>,
