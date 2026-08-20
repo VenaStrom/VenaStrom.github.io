@@ -65,7 +65,7 @@ export const info: {
     "Web": [
       "JavaScript/TypeScript",
       "React",
-      "Nextjs",
+      "Next.js",
       "Tailwind CSS",
       "HTML & CSS",
     ],
@@ -100,7 +100,7 @@ export const info: {
     "Other": [
       "SCRUM (Agile)",
       "3D printing",
-      "Drivers' license class B",
+      "Driver's license class B",
       "Computer hardware",
       "Networking hardware",
       "Network management",
@@ -114,7 +114,7 @@ export const info: {
       description: <>
         After my internship I continued to work at <a href="https://sustainable-action.ngo/" target="_blank">SAF</a> during the summer and then part-time during my studies.
         I have mainly worked on the recipe system for the tool <a href="https://verktyg.koordineradklimatomställning.se/" target="_blank">Eco-Planner</a>.
-        It leverages mathjs and a custom parser to allow users to apply and/or create convenient forumlas to inherit data from various data sources to streamline data entry and analysis.
+        It leverages mathjs and a custom parser to allow users to apply and/or create convenient formulas to inherit data from various data sources to streamline data entry and analysis.
       </>,
     },
     {
@@ -145,8 +145,8 @@ export const info: {
       role: "Developer",
       dateSpan: "Mar 2024 - Present",
       description: <>
-        <a href="https://www.stockholmtrekkers.se" target="_blank">Stockholm Trekkers</a> is non-profit organization that brings sci-fi and especially Star Trek fans together.
-        I help developed new workflows and procedures for making playlists to watch during the meets and preparing the video and audio equipment on-site. My main contribution at this point is the app <a href="https://github.com/VenaStrom/Stockholm-Trekkers-Playlist-Maker" target="_blank">Stockholm Trekkers Playlist Maker</a> which is used to compile playlists for the events.
+        <a href="https://www.stockholmtrekkers.se" target="_blank">Stockholm Trekkers</a> is a non-profit organization that brings sci-fi and especially Star Trek fans together.
+        I helped develop new workflows and procedures for making playlists to watch during the meets and preparing the video and audio equipment on-site. My main contribution at this point is the app <a href="https://github.com/VenaStrom/Stockholm-Trekkers-Playlist-Maker" target="_blank">Stockholm Trekkers Playlist Maker</a> which is used to compile playlists for the events.
       </>,
     },
     {
@@ -203,7 +203,7 @@ export const info: {
         On very short notice a part of the AURORE-3 team managed to refly most of the probe but with new experiments.
         <br />
         <br />
-        AURORE-4 is an <a href="https://www.astronomiskungdom.se/" target="_blank">Astronomisk Ungdom</a> project where engineering and space inclined students were tasked to build a half U (100x100x50 mm) probe that would ride in an <a href="https://sscspace.com/services/science-launch-services/sounding-rockets/suborbital-express/" target="_blank">SSC Space rocket</a> scheduled to launch late september/early october 2026.
+        AURORE-4 is an <a href="https://www.astronomiskungdom.se/" target="_blank">Astronomisk Ungdom</a> project where engineering and space inclined students were tasked to build a half U (100x100x50 mm) probe that would ride in an <a href="https://sscspace.com/services/science-launch-services/sounding-rockets/suborbital-express/" target="_blank">SSC Space rocket</a> scheduled to launch October 2026.
         <br />
         <br />
         The premise of the project is that we, students, designed and built the probe, high schoolers entered experiment ideas, and younger kids designed the mission patch. We want to bring together and inspire as many age groups as possible in this incredible project.
@@ -290,7 +290,7 @@ export const info: {
       name: "TETRIS#",
       dateSpan: "Nov 2025",
       description: <>
-        TETRIS# <i>(tetris sharp)</i>, a console based Tetris clone with rogue like elements like shopping power-ups and de-buffs. Features single and multiplayer modes.
+        TETRIS# <i>(tetris sharp)</i>, a console based Tetris clone with roguelike elements like shopping power-ups and de-buffs. Features single and multiplayer modes.
       </>,
       stack: [
         "C#",
@@ -324,11 +324,11 @@ export const info: {
     randomThings: [
       "I love LEGO, especially LEGO Technic.",
       "I enjoy cycling.",
-      "I'm proficient at solving Rubik's cubes",
+      "I'm proficient at solving Rubik's cubes.",
       "I love hotkeys! I cannot live without them.",
-      "I run linux (kubuntu 26) on my laptop",
+      "I run Linux (kubuntu 26) on my laptop",
       "Cats are awesome.",
-      "My name roots from latin and literally means 'vein' as in the blood vessel.",
+      "My name roots from Latin and literally means 'vein' as in the blood vessel.",
       <>Star Wars and Star Trek are <i>both</i> great in <b>very</b> different ways.</>,
       <>I have attended a cinema technician course to be able to operate a <u>real</u> cinema projector!</>
     ],
