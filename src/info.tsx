@@ -200,7 +200,9 @@ export const info: {
       name: "AURORE-3",
       dateSpan: "Aug 2024 - May 2026",
       description: <>
-        AURORE-3 is an <a href="https://www.astronomiskungdom.se/" target="_blank">Astronomisk Ungdom</a> project where engineering and space inclined students were tasked to build build a half U (100x100x50 mm) probe that would ride in an <a href="https://sscspace.com/services/science-launch-services/sounding-rockets/suborbital-express/" target="_blank">SSC Space</a> rocket that made it to space. I was the main software developer for the inboard software written in Rust, and the ground station software written in TypeScript(React) and Tauri. As the software specialist I manned the ground station seat for the countdown and launch at <a href="https://sscspace.com/esrange/" target="_blank">Esrange Space Center</a>. The probe was successfully launched on May 31 6:33 UTC after a 9 hour countdown.
+        AURORE-3 is an <a href="https://www.astronomiskungdom.se/" target="_blank">Astronomisk Ungdom</a> project where engineering and space inclined students were tasked to build a half U (100x100x50 mm) probe that would ride in an <a href="https://sscspace.com/services/science-launch-services/sounding-rockets/suborbital-express/" target="_blank">SSC Space rocket</a> that made it to space (248 km). I was the main software developer for the onboard software written in Rust, and the ground station software written in TypeScript(React) and Tauri. As the software specialist I manned the ground station seat for the countdown and launch at <a href="https://sscspace.com/esrange/" target="_blank">Esrange Space Center</a>. The probe was successfully launched on May 31 6:33 UTC after a 9 hour countdown.
+
+        Sitting in the control room crammed with engineers and scientists was an incredible experience. It was just like in the movies, with rows and rows of stations and computers, headed by the mission director with a hardened face.
       </>,
       stack: ["Rust", "Protobuf", "Tauri", "TypeScript", "React", "Tailwind CSS", "Git & GitHub", "GitHub Workflows"],
       images: <>
