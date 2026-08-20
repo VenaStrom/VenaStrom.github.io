@@ -57,8 +57,8 @@ export const info: {
   location: "Uppsala",
   phone: null,
   phoneLink: null,
-  email: "strom.vena@gmail.com",
-  emailLink: "strom.vena+portfolio@gmail.com",
+  email: "vena.strom@pm.me",
+  emailLink: "vena.strom+portfolio@om.me",
   linkedinLink: "https://www.linkedin.com/in/vena-strom/",
   githubLink: "https://github.com/VenaStrom",
   skills: {
@@ -83,6 +83,7 @@ export const info: {
       "Proxmox",
     ],
     "Apps": [
+      "Tauri",
       "Electron",
       "C# (WPF)",
     ],
@@ -101,7 +102,8 @@ export const info: {
       "3D printing",
       "Drivers' license class B",
       "Computer hardware",
-      "Networking",
+      "Networking hardware",
+      "Network management",
     ],
   },
   experiences: [
@@ -140,15 +142,15 @@ export const info: {
     },
     {
       organization: "Stockholm Trekkers",
-      role: "Technician",
+      role: "Developer",
       dateSpan: "Mar 2024 - Present",
       description: <>
         <a href="https://www.stockholmtrekkers.se" target="_blank">Stockholm Trekkers</a> is non-profit organization that brings sci-fi and especially Star Trek fans together.
-        I help developed new workflows and procedures for making playlists to watch during the meets and preparing the video and audio equipment on-site.
+        I help developed new workflows and procedures for making playlists to watch during the meets and preparing the video and audio equipment on-site. My main contribution at this point is the app <a href="https://github.com/VenaStrom/Stockholm-Trekkers-Playlist-Maker" target="_blank">Stockholm Trekkers Playlist Maker</a> which is used to compile playlists for the events.
       </>,
     },
     {
-      organization: "NTI Gymnasiet",
+      organization: "NTI Gymnasiet Uppsala",
       role: "School Ambassador",
       dateSpan: "Oct 2022 - Jun 2025",
       description: <>
@@ -162,8 +164,16 @@ export const info: {
   education: [
     {
       seat: "Uppsala University",
+      degree: "Master's Program in Computer and Information Engineering",
+      dateSpan: "Aug 2026 - Jun 2031",
+      description: <>
+        About the program <a href="https://www.uu.se/utbildning/program/civilingenjorsprogrammet-informationsteknologi" target="_blank">uu.se</a>.
+      </>,
+    },
+    {
+      seat: "Uppsala University",
       degree: "Bachelor's Program in Information Systems - Systems Development",
-      dateSpan: "Aug 2025 - Jun 2028",
+      dateSpan: "Aug 2025 - Jun 2026",
       description: <>
         About the program <a href="https://www.uu.se/utbildning/program/kandidatprogram-systemvetenskap-systemutveckling" target="_blank">uu.se</a>.
       </>,
@@ -187,18 +197,34 @@ export const info: {
   ],
   projects: [
     {
+      name: "AURORE-3",
+      dateSpan: "Aug 2024 - May 2026",
+      description: <>
+        AURORE-3 is an <a href="https://www.astronomiskungdom.se/" target="_blank">Astronomisk Ungdom</a> project where engineering and space inclined students were tasked to build build a half U (100x100x50 mm) probe that would ride in an <a href="https://sscspace.com/services/science-launch-services/sounding-rockets/suborbital-express/" target="_blank">SSC Space</a> rocket that made it to space. I was the main software developer for the inboard software written in Rust, and the ground station software written in TypeScript(React) and Tauri. As the software specialist I manned the ground station seat for the countdown and launch at <a href="https://sscspace.com/esrange/" target="_blank">Esrange Space Center</a>. The probe was successfully launched on May 31 6:33 UTC after a 9 hour countdown.
+      </>,
+      stack: ["Rust", "Protobuf", "Tauri", "TypeScript", "React", "Tailwind CSS", "Git & GitHub", "GitHub Workflows"],
+      images: <>
+        <img className="w-full sm:w-2/5" height={400} width={859} loading="lazy" src="/screenshots/AURORE-3-cam.png" alt="view from camera inside probe" />
+        <img className="w-full sm:w-2/5" height={400} width={859} loading="lazy" src="/screenshots/AURORE-3-home.jpg" alt="probe on table" />
+        <img className="w-full sm:w-3/5" height={400} width={859} loading="lazy" src="/screenshots/AURORE-3-GSE.png" alt="ground station interface" />
+      </>,
+      sourceCodeLink: null,
+      visitLink: <a href="https://www.astronomiskungdom.se/aurore/" target="_blank">AURORE-programmet</a>,
+      installLink: null,
+    },
+    {
       name: "Stockholm Trekkers Playlist Maker",
       dateSpan: "Aug 2024 - Present",
       description: <>
-        An Electron app used by the organization <a href="https://www.stockholmtrekkers.se" target="_blank">Stockholm Trekkers</a> to compile playlists that are played at our
+        A Tauri app used by the organization <a href="https://www.stockholmtrekkers.se" target="_blank">Stockholm Trekkers</a> to compile playlists that are played at our
         monthly events.
         The app focuses on user experience. I made the entire program myself while constantly
         taking feedback to improve the product. I still maintain and update the app.
       </>,
-      stack: ["Electron", "Node.js", "JavaScript", "HTML & CSS", "Git & GitHub", "GitHub Workflows"],
+      stack: ["Tauri", "TypeScript", "React", "Git & GitHub", "GitHub Workflows", "Tailwind CSS", "ffmpeg"],
       images: <>
-        <img className="w-full sm:w-2/5" height={400} width={859} loading="lazy" src="/screenshots/playlist-editor.webp" alt="playlist editor" />
-        <img className="w-full sm:w-2/5" height={400} width={859} loading="lazy" src="/screenshots/playlist-editor-exporting.webp" alt="playlist editor while exporting a project" />
+        <img className="w-full sm:w-2/5" height={400} width={859} loading="lazy" src="/screenshots/playlist-projects.png" alt="playlist editor" />
+        <img className="w-full sm:w-2/5" height={400} width={859} loading="lazy" src="/screenshots/playlist-editor-exporting.png" alt="playlist editor while exporting a project" />
       </>,
       sourceCodeLink: <a href="https://github.com/VenaStrom/Stockholm-Trekkers-Playlist-Maker" target="_blank">GitHub</a>,
       visitLink: null,
@@ -225,7 +251,7 @@ export const info: {
         <img className="w-2/5 sm:w-2/7" height={600} width={1020} loading="lazy" src="/screenshots/feed-page.webp" alt="Vena's radio feed page" />
       </>,
       sourceCodeLink: <a href="https://github.com/VenaStrom/Venas-Radio" target="_blank">GitHub</a>,
-      visitLink: <a href="https://vr-radio.tailad6f63.ts.net/" target="_blank">Live site</a>,
+      visitLink: <a href="https://vr.venastrom.se/" target="_blank">Live site</a>,
       installLink: null,
     },
     {
@@ -253,13 +279,10 @@ export const info: {
   aboutMe: {
     description: [
       <>
-        I'm a full stack developer focused on creating user-friendly, maintainable systems, with over four years of experience with JavaScript/TypeScript and other technologies.
+        I'm a full stack developer focused on creating user-friendly, maintainable systems, with over five years of experience with JavaScript/TypeScript and other technologies.
       </>,
       <>
         I manage my own servers, mainly via Proxmox, and good ol' SSH.
-      </>,
-      <>
-        I also dabble in integrated systems. Right now I'm working in a group called <a href="https://www.astronomiskungdom.se/aurore/" target="_blank">AURORE</a>-3 to build a small probe that will be sent to <strong>actual space</strong> Q1 2026!
       </>,
       <>
         Generally I code to achieve my creative goals and to solve problems in my daily life so if that requires learning a new technology I'm all for it!
@@ -271,10 +294,11 @@ export const info: {
       "I enjoy cycling.",
       "I'm proficient at solving Rubik's cubes",
       "I love hotkeys! I cannot live without them.",
-      "I run Pop!_OS on my laptop which is an Ubuntu-based Linux distro with built in NVIDIA GPU support. Although I'm not a fan of GNOME so I use KDE Plasma as my desktop environment.",
+      "I run linux (kubuntu 26) on my laptop",
       "Cats are awesome.",
       "My name roots from latin and literally means 'vein' as in the blood vessel.",
-      <>Star Wars and Star Trek are <u>both</u> great in <i>very</i> different ways.</>
+      <>Star Wars and Star Trek are <i>both</i> great in <b>very</b> different ways.</>,
+      <>I have attended a cinema technician course to be able to operate a <u>real</u> cinema projector!</>
     ],
   },
 } as const;
