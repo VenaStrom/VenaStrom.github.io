@@ -37,7 +37,7 @@ export const info: {
     name: string;
     dateSpan: string; // E.g. "Aug 2020 - Dec 2021" or "2020 - Present"
     description: string | ReactNode;
-    stack: (string | ReactNode)[];
+    stack: (string | ReactNode)[] | null;
     sourceCodeLink: ReactNode;
     visitLink: ReactNode | null;
     installLink: ReactNode | null;
@@ -216,7 +216,26 @@ export const info: {
         <img className="w-full sm:w-2/5" height={400} width={859} loading="lazy" src="/screenshots/AURORE-4-bench.png" alt="view from camera inside probe" />
       </>,
       sourceCodeLink: null,
-      visitLink: <a href="https://www.astronomiskungdom.se/aurore/" target="_blank">AURORE-programmet</a>,
+      visitLink: <a lang="sv-SE" href="https://www.astronomiskungdom.se/aurore/" target="_blank">AURORE-programmet</a>,
+      installLink: null,
+    },
+    {
+      name: "Swedish Air Force Think Tank",
+      dateSpan: "Feb 2026 - Mar 2026",
+      description: <>
+        The Swedish Air Force via their Experiment Office in Uppsala and the organization <a href="https://stuns.se/" target="_blank">STUNS</a> held a hackathon, or think tank, where students in Uppsala were given the opportunity to come up with and develop ideas for how the Swedish Air Force can find new energy sources.
+        <br />
+        <br />
+        The event has long since passed but the ideas and prototypes are still being developed by me and my team along side the Experiment Office.
+      </>,
+      stack: null,
+      images: <span className="flex flex-row items-center justify-center gap-x-8">
+        <img className="w-full sm:w-1/5" height={400} width={400} loading="lazy" src="/screenshots/flygvapnets-experimentkontor.png" alt="Flygvapnets experimentkontor logo" />
+        <img className="w-full sm:w-1/5" height={400} width={400} loading="lazy" src="/screenshots/flygvapnet.png" alt="Swedish air force logo" />
+        <img className="w-full sm:w-1/5" height={400} width={400} loading="lazy" src="/screenshots/STUNS.png" alt="STUNS logo" />
+      </span>,
+      sourceCodeLink: null,
+      visitLink: <a lang="sv-SE" href="https://energi.stuns.se/hackaton/" target="_blank">STUNS Hackaton</a>,
       installLink: null,
     },
     {
@@ -241,7 +260,7 @@ export const info: {
         <img className="w-full sm:w-3/5" height={400} width={859} loading="lazy" src="/screenshots/AURORE-3-GSE.png" alt="ground station interface" />
       </>,
       sourceCodeLink: null,
-      visitLink: <a href="https://www.astronomiskungdom.se/aurore/" target="_blank">AURORE-programmet</a>,
+      visitLink: <a lang="sv-SE" href="https://www.astronomiskungdom.se/aurore/" target="_blank">AURORE-programmet</a>,
       installLink: null,
     },
     {
@@ -317,7 +336,7 @@ export const info: {
         I manage my own servers, mainly via Proxmox, and good ol' SSH.
       </>,
       <>
-        Generally I code to achieve my creative goals and to solve problems in my daily life so if that requires learning a new technology I'm all for it!
+        I am stubborn when I face problems in my day to day life, I will move mountains to fix it. I am generally bothered by others software solutions so I patch or make my own alternatives. This desire to solve problems always leads me to learn new things, be it paradigms, languages, or tech.
       </>,
     ],
     languages: ["Swedish - Fluent", "English - Fluent"],

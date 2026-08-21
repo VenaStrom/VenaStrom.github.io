@@ -25,20 +25,23 @@ export default function Projects({ className = "" }: { className?: string }) {
             </div>
 
             {/* Stack */}
-            <div>
-              <span className="font-normal flex flex-row items-center gap-x-0.5">
-                <img className="size-5" src="/icon/icons8-wrench-24.png" height={24} width={24} alt="Wrench" />
-                Stack
-              </span>
+            {project.stack ?
+              <div>
+                <span className="font-normal flex flex-row items-center gap-x-0.5">
+                  <img className="size-5" src="/icon/icons8-wrench-24.png" height={24} width={24} alt="Wrench" />
+                  Stack
+                </span>
 
-              <ul className="flex flex-row flex-wrap gap-x-4 gap-y-2 justify-between">
-                {project.stack.map((tech, j) =>
-                  <li key={`project-${i}-stack-${j}`}>
-                    {tech}
-                  </li>
-                )}
-              </ul>
-            </div>
+                <ul className="flex flex-row flex-wrap gap-x-4 gap-y-2 justify-between">
+                  {project.stack.map((tech, j) =>
+                    <li key={`project-${i}-stack-${j}`}>
+                      {tech}
+                    </li>
+                  )}
+                </ul>
+              </div>
+              : null
+            }
 
             {/* Links */}
             <div className="flex flex-row justify-evenly flex-wrap gap-x-4 mt-2">
